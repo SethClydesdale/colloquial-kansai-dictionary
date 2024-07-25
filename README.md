@@ -1,5 +1,5 @@
 ﻿# Colloquial Kansai Dictionary
-Colloquial Kansai Dictionary is a website that serves as a quick reference for the material taught in [Colloquial Kansai Japanese](https://www.tuttlepublishing.com/language-books/japanese/phrasebooks/colloquial-kansai-japanese). If you're looking to learn new words/phrases taught in the Kansai region of Japan or quickly review points you're not familiar with, then this is just for you! Choose one of the links below to get started.
+Colloquial Kansai Dictionary is a website that serves as a quick reference for the material taught in [Colloquial Kansai Japanese](https://www.tuttlepublishing.com/language-books/japanese/phrasebooks/colloquial-kansai-japanese). If you're looking to learn new words/phrases used in the Kansai region of Japan or quickly review points you're not familiar with, then this is just for you! Choose one of the links below to start brushing up on your Kansai-ben!
 
 **Online Version:** https://sethclydesdale.github.io/colloquial-kansai-dictionary/
 
@@ -19,7 +19,7 @@ If you're interested in learning Japanese, please see [this guide](https://sethc
 
 
 ### Using the Offline Version
-If you're using the offline version you'll have to unzip the files. Once you've done that, you can access all the study resources by opening any of the **index.html** files in the browser of your choice. It should have the same experience as the online version, however, whenever new changes are made they will not be available; you'll have to download the latest version of the repository to get them.
+If you're using the offline version you'll have to unzip the files. Once you've done that, you can access the website offline by opening any of the **index.html** files in the browser of your choice. It should have the same experience as the online version, however, whenever new changes are made they will not be available; you'll have to download the latest version of the repository to get them.
 
 
 ### Keyboard Shortcuts
@@ -50,6 +50,7 @@ If you have any suggestions, feedback, questions, or bugs to report, feel free t
 - [Useful Tools List](https://sethclydesdale.github.io/genki-study-resources/help/japanese-guide/#tools) (more in-depth list of tools for Japanese study)
 
 ##### Websites
+- [京言葉](https://www.akenotsuki.com/kyookotoba/) (grammar and accet info for Kyoto-ben; Japanese only)
 - [Tobira Grammar Index](https://sethclydesdale.github.io/tobira-study-resources/lessons/appendix/grammar-index/) (for intermediate to advanced grammar explanations)
 - [Dictionary of Japanese Grammar](https://core6000.neocities.org/dojg/) (godsend for quickly looking up grammar points)
 - [Itazuraneko's Grammar Master Reference](https://kenrick95.github.io/itazuraneko/grammar/masterreference) (another great resource for looking up grammar points)

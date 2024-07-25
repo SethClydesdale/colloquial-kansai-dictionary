@@ -22,7 +22,7 @@
       // [NOT USED CURRENTLY; GSR remnant] edition: [OPTIONAL] restricts the announcement to a specific edition, possible values are: 3rd || 2nd, announcements are global by default
       msg : [
         {
-          content : 'Colloquial Kansai Dictionary is still under construction, so all entries are not available yet. You can expect new entries to be added periodically. For update details, please check the latest commits on the <a href="https://github.com/SethClydesdale/colloquial-kansai-dictionary/commits/master/" target="_blank">GitHub repo</a>.'
+          content : 'Colloquial Kansai Dictionary is still under construction, so all entries are not available yet. You can expect new entries to be added periodically. For update details, please check the latest commits on the <a href="https://github.com/SethClydesdale/colloquial-kansai-dictionary/commits/main" target="_blank">GitHub repo</a>.'
         },
         
         {
