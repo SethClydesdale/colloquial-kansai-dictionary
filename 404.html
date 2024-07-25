@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Page Not Found | Colloquial Kansai Dictionary</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://sethclydesdale.github.io/colloquial-kansai-dictionary/resources/images/kansai.ico">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://sethclydesdale.github.io/colloquial-kansai-dictionary/resources/css/stylesheet.min.css">
+    <script src="https://sethclydesdale.github.io/colloquial-kansai-dictionary/resources/javascript/head.min.js"></script>
+    <script src="https://sethclydesdale.github.io/colloquial-kansai-dictionary/resources/javascript/ga.js" async></script>
+  </head>
+
+  <body id="page">
+    <script>document.body.className = 'helper-' + ((storageOK && localStorage.furiganaVisible == 'false') ? 'hidden' : 'present');</script>
+    
+    <header>
+      <h1><a href="https://sethclydesdale.github.io/colloquial-kansai-dictionary/" id="home-link">Colloquial Kansai Dictionary</a></h1>
+      <a id="fork-me" href="https://github.com/SethClydesdale/colloquial-kansai-dictionary">Fork Me</a>
+    </header>
+    
+    <div id="content">
+      <div class="content-block center">
+        <h2 class="title" id="not-found" style="font-size:38px;">404 Not Found</h2>
+        <p style="font-size:20px;">Sorry, the page you're looking for cannot be found.</p>
+        <p style="font-size:18px;">お<ruby>探<rt>さが</rt></ruby>しのページは<ruby>見<rt>み</rt></ruby>つからへんかった。</p>
+        <p><a href="https://sethclydesdale.github.io/colloquial-kansai-dictionary/" id="404-home" class="button"><i class="fa">&#xf015;</i>Return to the Index / TOPページに戻る</a></p>
+      </div>
+    </div>
+    
+    <footer class="clear">
+      <ul class="footer-left">
+        <li><a href="https://sethclydesdale.github.io/colloquial-kansai-dictionary/" id="footer-home">Home</a></li>
+        <li><a href="https://sethclydesdale.github.io/colloquial-kansai-dictionary/privacy/">Privacy</a></li>
+        <li><a href="https://sethclydesdale.github.io/colloquial-kansai-dictionary/report/">Report a Bug</a></li>
+        <li><a href="https://sethclydesdale.github.io/colloquial-kansai-dictionary/download/">Download</a></li>
+        <li><a href="https://sethclydesdale.github.io/colloquial-kansai-dictionary/donate/">Donate</a></li>
+      </ul>
+      
+      <ul class="footer-right">
+        <li>Created by <a href="https://github.com/SethClydesdale">Seth Clydesdale</a> and the <a href="https://github.com/SethClydesdale/colloquial-kansai-dictionary/graphs/contributors">GitHub Community</a></li>
+      </ul>
+    </footer>
+    
+    <script src="https://sethclydesdale.github.io/colloquial-kansai-dictionary/resources/javascript/genki.min.js"></script>
+    <script src="https://sethclydesdale.github.io/colloquial-kansai-dictionary/resources/javascript/all.min.js"></script>
+    <script>(function (window, document) {
+      // makes corrections to the page if used on the local file system
+      if (window.location.protocol == 'file:') {
+        var domain = 'https://sethclydesdale.github.io/colloquial-kansai-dictionary/',
+            a = document.querySelectorAll('a[href*="' + domain + '"], script[src*="' + domain + '"], link[href*="' + domain + '"]'),
+            i = 0,
+            j = a.length, script;
+        
+        for (; i < j; i++) {
+          switch (a[i].tagName) {
+            // change the anchor values to their offline files
+            case 'A' :
+              a[i].href = a[i].href.replace(domain, '');
+              /404\.html$/.test(a[i].href) ? a[i].href = './index.html' : a[i].href += 'index.html';
+              break;
+            
+            // change link sources to their offline resources
+            case 'LINK' :
+              a[i].href = a[i].href.replace(domain, '');
+              break;
+              
+            // change the js source to the offline version
+            case 'SCRIPT' :
+              // since we cannot stop js execution, check if the user actually has no internet connection before appending the script
+              if (!/ga\.js$/.test(a[i].src) && !navigator.onLine) {
+                script = document.createElement('SCRIPT');
+                script.src = a[i].src.replace(domain, '');
+                script.type = 'text/javascript';
+                
+                document.body.removeChild(a[i]);
+                document.body.appendChild(script);
+              }
+              break;
+          }
+        }
+      }
+    }(window, document));</script>
+  </body>
+</html>
