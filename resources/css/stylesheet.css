@@ -28,6 +28,21 @@
   padding:5px;
   background:#FFF;
 }
+
+.example .line .name:after { content:":"; }
+.example .line .name {
+  font-weight:bold;
+  text-align:right;
+  float:left;
+  width:25%;
+  padding-right:5px;
+  word-wrap:break-word;
+}
+
+.example .line .text {
+  float:left;
+  width:72%;
+}
 .hidden { visibility:hidden; }
 
 #appendix-tool .workbook-title { color:#C33; }
@@ -249,7 +264,7 @@ input[type="text"]:focus, input[type="number"]:focus, textarea:focus, select:foc
 /* margin */
 .nomargin { margin:0 !important; }
 .clearfix { clear:both; }
-.clear:after {
+.clear:after, .line:after {
   content:"";
   display:table;
   clear:both;

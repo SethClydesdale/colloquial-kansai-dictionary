@@ -21,13 +21,13 @@ Genki.jisho = {
 
   "あ" : [
     // CKJ
-    { ja : "あかん", en : "no; no good; bad; useless; impossible; expletive", v : "Exp", l : "Colloquial Kansai Japanese" },
-    { ja : "あっこ", en : "over there", v : "N", l : "Colloquial Kansai Japanese" },
-    { ja : "アホくさ", en : "stupid thing", v : "Exp", l : "Colloquial Kansai Japanese" },
-    { ja : "アホ", en : "fool; stupid; foolish", v : "N", l : "Colloquial Kansai Japanese" },
-    { ja : "阿呆|あほう", en : "fool; stupid; foolish", v : "N", l : "Colloquial Kansai Japanese" },
-    { ja : "あらへん", en : "ない", v : "関西弁", l : "Colloquial Kansai Japanese" },
-    { ja : "あんた", en : "you", v : "N", l : "Colloquial Kansai Japanese" },
+    { ja : "あかん", en : "no; no good; bad; useless; impossible; expletive", v : "Exp", l : "CKJ" },
+    { ja : "あっこ", en : "over there", v : "N", l : "CKJ" },
+    { ja : "アホくさ", en : "stupid thing", v : "Exp", l : "CKJ" },
+    { ja : "アホ", en : "fool; stupid; foolish", v : "N", l : "CKJ" },
+    { ja : "阿呆|あほう", en : "fool; stupid; foolish", v : "N", l : "CKJ" },
+    { ja : "あらへん", en : "ない", v : "関西弁", l : "CKJ" },
+    { ja : "あんた", en : "you", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "アーティスト", en : "artist", v : "", l : "Tobira: 漢字表" },
@@ -545,8 +545,8 @@ Genki.jisho = {
 
   "お" : [
     // CKJ
-    { ja : "お前|おまえ", en : "you", v : "N", l : "Colloquial Kansai Japanese" },
-    { ja : "おもろい", en : "面白い(おもしろい)", v : "関西弁", l : "Colloquial Kansai Japanese" },
+    { ja : "お前|おまえ", en : "you", v : "N", l : "CKJ" },
+    { ja : "おもろい", en : "面白い(おもしろい)", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "追いかける|おいかける", en : "to run after; chase", v : "ru-Vt", l : "L8会" },
@@ -785,7 +785,7 @@ Genki.jisho = {
 
   "か" : [
     // CKJ
-    { ja : "株|かぶ", en : "stock; share", v : "N", l : "Colloquial Kansai Japanese" },
+    { ja : "株|かぶ", en : "stock; share", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "-家|-か", en : "specialist", v : "Suf", l : "L7読1" },
@@ -1140,7 +1140,7 @@ Genki.jisho = {
 
   "き" : [
     // CKJ
-    { ja : "きつい", en : "tough; severe; extreme", v : "A", l : "Colloquial Kansai Japanese" },
+    { ja : "きつい", en : "tough; severe; extreme", v : "A", l : "CKJ" },
     
     // Tobira
     { ja : "聞いたところによると|きいたところによると", en : "according to what I've heard", v : "Phr", l : "L10会1" },
@@ -1450,7 +1450,7 @@ Genki.jisho = {
 
   "け" : [
     // CKJ
-    { ja : "けったい", en : "odd; strange; perverted", v : "A", l : "Colloquial Kansai Japanese" },
+    { ja : "けったい", en : "odd; strange; perverted", v : "A", l : "CKJ" },
     
     // Tobira
     { ja : "毛|け", en : "hair; down; fur", v : "N", l : "L3読" },
@@ -2492,7 +2492,7 @@ Genki.jisho = {
 
   "す" : [
     // CKJ
-    { ja : "すけべ", en : "perverted; lewd", v : "N", l : "Colloquial Kansai Japanese" },
+    { ja : "すけべ", en : "perverted; lewd", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "図|ず", en : "figure; chart; drawing", v : "N", l : "L6会3" },
@@ -2838,7 +2838,7 @@ Genki.jisho = {
 
   "た" : [
     // CKJ
-    { ja : "ダボ", en : "asshole; dumbass; damn idiot", v : "N", l : "Colloquial Kansai Japanese" },
+    { ja : "ダボ", en : "asshole; dumbass; damn idiot", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "-体|-たい", en : "style (of language use)", v : "Suf", l : "L2読" },
@@ -3047,8 +3047,8 @@ Genki.jisho = {
 
   "ち" : [
     // CKJ
-    { ja : "ちゃう", en : "違う; じゃない", v : "関西弁", l : "Colloquial Kansai Japanese" },
-    { ja : "ちょい、ちゃお、ちょ", en : "ちょっと", v : "関西弁", l : "Colloquial Kansai Japanese" },
+    { ja : "ちゃう", en : "違う; じゃない", v : "関西弁", l : "CKJ" },
+    { ja : "ちょい、ちゃお、ちょ", en : "ちょっと", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "血|ち", en : "blood", v : "N", l : "Tobira: 漢字表" },
@@ -3250,10 +3250,10 @@ Genki.jisho = {
 
   "て" : [
     // CKJ
-    { ja : "で", en : "よ; ぞ", v : "関西弁", l : "Colloquial Kansai Japanese" },
-    { ja : "でっか", en : "ですか", v : "関西弁", l : "Colloquial Kansai Japanese" },
-    { ja : "でんな", en : "ですな; ですね", v : "関西弁", l : "Colloquial Kansai Japanese" },
-    { ja : "～てんねん", en : "～ている", v : "関西弁", l : "Colloquial Kansai Japanese" },
+    { ja : "で", en : "よ; ぞ", v : "関西弁", l : "CKJ" },
+    { ja : "でっか", en : "ですか", v : "関西弁", l : "CKJ" },
+    { ja : "でんな", en : "ですな; ですね", v : "関西弁", l : "CKJ" },
+    { ja : "～てんねん", en : "～ている", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "定員|ていいん", en : "fixed number (of people)", v : "N", l : "Tobira: 漢字表" },
@@ -3373,11 +3373,20 @@ Genki.jisho = {
   ],
 
   "と" : [
-    { ja : "ど～", en : "Prefix that intensifies nouns/adjectives", v : "Pre", l : "Colloquial Kansai Japanese" },
-    { ja : "とこ", en : "所(ところ)", v : "関西弁", l : "Colloquial Kansai Japanese" },
-    { ja : "どぎつい", en : "intense; extreme; gaudy", v : "A", l : "Colloquial Kansai Japanese" },
-    { ja : "どアホ", en : "total idiot", v : "N", l : "Colloquial Kansai Japanese" },
-    { ja : "どないやった", en : "how was it?", v : "Exp", l : "Colloquial Kansai Japanese" },
+    { ja : "ど～", en : "Prefix that intensifies nouns/adjectives", v : "Pre", l : "CKJ" },
+    { ja : "とこ", en : "所(ところ)", v : "関西弁", l : "CKJ" },
+    { ja : "どぎつい", en : "intense; extreme; gaudy", v : "A", l : "CKJ" },
+    { ja : "どアホ", en : "total idiot", v : "N", l : "CKJ" },
+    { ja : "どない", en : "how is it?", v : "Exp", l : "CKJ" },
+    { ja : "どない", en : "どう", v : "関西弁", l : "CKJ" },
+    { ja : "どないしたん", en : "what's wrong?; what happened?", v : "Exp", l : "CKJ" },
+    { ja : "どないしたん", en : "どうしたの", v : "関西弁", l : "CKJ" },
+    { ja : "どないしょ", en : "what should I/we do?", v : "Exp", l : "CKJ" },
+    { ja : "どないしょ", en : "どうしよう", v : "関西弁", l : "CKJ" },
+    { ja : "どないする", en : "what are you/we going to do?", v : "Exp", l : "CKJ" },
+    { ja : "どないする", en : "どうする", v : "関西弁", l : "CKJ" },
+    { ja : "どないやった", en : "how was it?", v : "Exp", l : "CKJ" },
+    { ja : "どないやった", en : "どうだった", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "都／道／府／県|と／どう／ふ／けん", en : "prefecture [the largest administrative unit in Japan]", v : "N", l : "L1読" },
@@ -3769,7 +3778,7 @@ Genki.jisho = {
 
   "ね" : [
     // Tobira
-    { ja : "ねん", en : "だよ", v : "関西弁", l : "Colloquial Kansai Japanese" },
+    { ja : "ねん", en : "だよ", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "ネイルアート", en : "(finger) nail art", v : "N", l : "L10読" },
@@ -4234,8 +4243,8 @@ Genki.jisho = {
 
   "ふ" : [
     // CKJ
-    { ja : "ファミコン", en : "video games; family computer", v : "N", l : "Colloquial Kansai Japanese" },
-    { ja : "豚まん|ぶたマン", en : "pork roll", v : "N", l : "Colloquial Kansai Japanese" },
+    { ja : "ファミコン", en : "video games; family computer", v : "N", l : "CKJ" },
+    { ja : "豚まん|ぶたマン", en : "pork roll", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "-部|-ぶ", en : "club; division; department", v : "Suf", l : "L4会1" },
@@ -4446,7 +4455,7 @@ Genki.jisho = {
 
   "ほ" : [
     // CKJ
-    { ja : "ぼちぼち", en : "so-so; not bad; no problem; fine; not good", v : "A", l : "Colloquial Kansai Japanese" },
+    { ja : "ぼちぼち", en : "so-so; not bad; no problem; fine; not good", v : "A", l : "CKJ" },
     
     // Tobira
     { ja : "補助|ほじょ", en : "assistance; support; aid", v : "VN", l : "Tobira: 漢字表" },
@@ -4657,8 +4666,8 @@ Genki.jisho = {
 
   "み" : [
     // Tobira
-    { ja : "ミナミ", en : "Nanba (Southern Kansai)", v : "N", l : "Colloquial Kansai Japanese" },
-    { ja : "妙|みょう", en : "strange; weird", v : "A", l : "Colloquial Kansai Japanese" },
+    { ja : "ミナミ", en : "Nanba (Southern Kansai)", v : "N", l : "CKJ" },
+    { ja : "妙|みょう", en : "strange; weird", v : "A", l : "CKJ" },
     
     // Tobira
     { ja : "見える|みえる", en : "to appear; seem; be visible", v : "ru-Vi", l : "L12会" },
@@ -4838,7 +4847,7 @@ Genki.jisho = {
 
   "も" : [
     // Tobira
-    { ja : "儲かりまっか|もうかりまっか", en : "Are you making money?; How's business? [Osaka-ben]", v : "Exp", l : "Colloquial Kansai Japanese" },
+    { ja : "儲かりまっか|もうかりまっか", en : "Are you making money?; How's business? [Osaka-ben]", v : "Exp", l : "CKJ" },
     
     // Tobira
     { ja : "もうちょっと", en : "a bit more; a bit longer", v : "Phr", l : "Tobira: 漢字表" },
@@ -4909,11 +4918,11 @@ Genki.jisho = {
 
   "や" : [
     // CKJ
-    { ja : "や", en : "だ", v : "関西弁", l : "Colloquial Kansai Japanese" },
-    { ja : "やった", en : "だった", v : "関西弁", l : "Colloquial Kansai Japanese" },
-    { ja : "やな", en : "だね", v : "関西弁", l : "Colloquial Kansai Japanese" },
-    { ja : "やろ", en : "だろう", v : "関西弁", l : "Colloquial Kansai Japanese" },
-    { ja : "～やん", en : "suffix for friends [Kansai-ben]", v : "Suf", l : "Colloquial Kansai Japanese" },
+    { ja : "や", en : "だ", v : "関西弁", l : "CKJ" },
+    { ja : "やった", en : "だった", v : "関西弁", l : "CKJ" },
+    { ja : "やな", en : "だね", v : "関西弁", l : "CKJ" },
+    { ja : "やろ", en : "だろう", v : "関西弁", l : "CKJ" },
+    { ja : "～やん", en : "suffix for friends [Kansai-ben]", v : "Suf", l : "CKJ" },
     
     // Tobira
     { ja : "約-|やく-", en : "about; approximately", v : "Pref", l : "L5読" },
@@ -5022,8 +5031,8 @@ Genki.jisho = {
 
   "よ" : [
     // CKJ
-    { ja : "吉本|よしもと", en : "short for Yoshimoto Kogyo (Comedy entertainment agency based in Nanba)", v : "N", l : "Colloquial Kansai Japanese" },
-    { ja : "嫁|よめ", en : "wife", v : "N", l : "Colloquial Kansai Japanese" },
+    { ja : "吉本|よしもと", en : "short for Yoshimoto Kogyo (Comedy entertainment agency based in Nanba)", v : "N", l : "CKJ" },
+    { ja : "嫁|よめ", en : "wife", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "宵|よい", en : "early; evening", v : "N", l : "L13読2" },
