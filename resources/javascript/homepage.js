@@ -191,7 +191,25 @@
 
           // append the matched exercises or display an error message/hide the search results
           if (frag.childNodes.length) {
-            QuickSearcher.results.appendChild(frag);
+            if (value == '#') {
+              // get the numerical id for each li and make an ordered object
+              for (var i = 0, a = frag.children, j = a.length, ordered = {}, max = 0, n; i < j; i++) {
+                n = Number(a[i].title.replace(/.*?#(\d+).*/, '$1'));
+                ordered[n] = a[i].cloneNode(true);
+                if (max < n) max = n;
+              }
+              
+              // finally sort the li from 1-max and append it to the search results
+              for (var i = 0, frag = document.createDocumentFragment(), max = max + 1; i < max; i++) {
+                if (ordered[i]) {
+                  frag.appendChild(ordered[i]);
+                }
+              }
+              QuickSearcher.results.appendChild(frag);
+              
+            } else {
+              QuickSearcher.results.appendChild(frag);
+            }
 
           } else {
             QuickSearcher.results.innerHTML = value ? '<li>No results found for "' + value + '".</li>' : '';

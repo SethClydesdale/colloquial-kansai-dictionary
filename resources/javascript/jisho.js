@@ -1361,6 +1361,9 @@ Genki.jisho = {
   ],
 
   "く" : [
+    // CKJ
+    { ja : "愚図|ぐず", en : "dullard", v : "N", l : "CKJ" },
+    
     // Tobira
     { ja : "句|く", en : "haiku", v : "N", l : "L13読2" },
     { ja : "区|く", en : "ward; borough; city (in Tokyo)", v : "N", l : "Tobira: 漢字表" },
@@ -3373,10 +3376,15 @@ Genki.jisho = {
   ],
 
   "と" : [
+    // CKJ
     { ja : "ど～", en : "Prefix that intensifies nouns/adjectives", v : "Pre", l : "CKJ" },
-    { ja : "とこ", en : "所(ところ)", v : "関西弁", l : "CKJ" },
-    { ja : "どぎつい", en : "intense; extreme; gaudy", v : "A", l : "CKJ" },
     { ja : "どアホ", en : "total idiot", v : "N", l : "CKJ" },
+    { ja : "どうしょうもない", en : "しょうがない", v : "関西弁", l : "CKJ" },
+    { ja : "どぎつい", en : "intense; extreme; gaudy", v : "A", l : "CKJ" },
+    { ja : "とこ", en : "所(ところ)", v : "関西弁", l : "CKJ" },
+    { ja : "どしたん", en : "どうした", v : "関西弁", l : "CKJ" },
+    { ja : "どつく", en : "to punch; to hit", v : "u-Vt", l : "CKJ" },
+    { ja : "どつく", en : "殴る(なぐる)", v : "関西弁", l : "CKJ" },
     { ja : "どない", en : "how is it?", v : "Exp", l : "CKJ" },
     { ja : "どない", en : "どう", v : "関西弁", l : "CKJ" },
     { ja : "どないしたん", en : "what's wrong?; what happened?", v : "Exp", l : "CKJ" },
@@ -3387,6 +3395,9 @@ Genki.jisho = {
     { ja : "どないする", en : "どうする", v : "関西弁", l : "CKJ" },
     { ja : "どないやった", en : "how was it?", v : "Exp", l : "CKJ" },
     { ja : "どないやった", en : "どうだった", v : "関西弁", l : "CKJ" },
+    { ja : "とろい", en : "slow; dull; stupid", v : "A", l : "CKJ" },
+    { ja : "どや/どうや", en : "どうだ", v : "関西弁", l : "CKJ" },
+    { ja : "鈍臭い|どんくさい", en : "dim-witted; stupid", v : "A", l : "CKJ" },
     
     // Tobira
     { ja : "都／道／府／県|と／どう／ふ／けん", en : "prefecture [the largest administrative unit in Japan]", v : "N", l : "L1読" },
@@ -3670,6 +3681,9 @@ Genki.jisho = {
   ],
 
   "に" : [
+    // CKJ
+    { ja : "鈍い|にぶい", en : "dull; slow", v : "A", l : "CKJ" },
+    
     // Tobira
     { ja : "-似|-に", en : "to resemble (someone)", v : "Suf", l : "L13会" },
     { ja : "似合う|にあう", en : "to become; match; suit; to look good (on somebody)", v : "u-Vi", l : "L9会2" },
@@ -3824,6 +3838,9 @@ Genki.jisho = {
   ],
 
   "の" : [
+    // CKJ
+    { ja : "鈍間|のろま", en : "blockhead; dunce; dimwit", v : "N", l : "CKJ" },
+    
     // Tobira
     { ja : "能|のう", en : "Japanese lyrical Noh drama", v : "N", l : "L11会" },
     { ja : "農家|のうか", en : "farming family", v : "N", l : "L15読3" },
@@ -4560,6 +4577,9 @@ Genki.jisho = {
   ],
 
   "ま" : [
+    // CKJ
+    { ja : "待たす|またす", en : "to keep (a person) waiting", v : "u-Vt", l : "CKJ" },
+    
     // Tobira
     { ja : "間|ま", en : "room", v : "N", l : "L1読" },
     { ja : "マイペース(な)", en : "(do one's work) at one's own pace or in one's own way", v : "ANa", l : "L7会2" },

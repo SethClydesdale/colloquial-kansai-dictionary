@@ -2,7 +2,7 @@
 (function (window, document) {
   'use strict';
   
-  // primary object for functionality of exercises
+  // primary object for functionality
   var Genki = {
     
     canNotify : 'Notification' in window,
@@ -14,12 +14,12 @@
     // tells us if being used on a local file system so we can append index.html to URLs
     local : window.location.protocol == 'file:' ? 'index.html' : '',
     
-    // tells us if debug mode is active so we can append ?debug to exercise URLs
+    // tells us if debug mode is active
     debug : /debug/.test(window.location.search) ? '?debug' : '',
 
     // frequently used/generic strings
     lang : {
-      // furigana toggle for vocab exercises
+      // furigana toggle
       toggle_furigana : '<button class="button furigana-toggler" onclick="Genki.toggle.furigana(this);"><i class="fa">&#xf2a8;</i>' + 'Furigana: <span class="furigana-show">OFF</span><span class="furigana-hide">ON</span></button>'
     },
 
@@ -30,7 +30,7 @@
 
     // scroll to the specified element: Genki.scrollTo('#lesson-3')
     // scrolling can be delayed by passing a value that evaluates to true (true; 1; '.') to the second param; delay
-    // the second param is mostly for script generated content, i.e. the exercises, since there's a small delay before the content is visible
+    // the second param is mostly for script generated content, i.e. exercises, since there's a small delay before the content is visible
     scrollTo : function (el, delay) {
       // check if el is a selector
       if (typeof el == 'string') {
