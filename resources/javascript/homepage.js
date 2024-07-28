@@ -154,6 +154,10 @@
 
           // loop over the exercises if a value is present
           if (value) {
+            if (value == '#') { // vars for sorting in-depth entries
+              var ordered = {};
+            }
+            
             for (; i < QuickSearcher.exLen; i++) {
               if (QuickSearcher.li[i].innerText.toLowerCase().indexOf(value.toLowerCase()) != -1 && QuickSearcher.li[i].getElementsByTagName('A')[0] && !/note/.test(QuickSearcher.li[i].id)) {
                 // clone the link (if on homepage) or create a new link (if on the grammar index)
@@ -184,6 +188,11 @@
                 if (!/^file|^http/.test(clone.dataset.lesson)) {
                   frag.appendChild(clone);
                   hits++; // increment hits
+                  
+                  // get the numerical id for each li and add them to the ordered object for sorting in-depth entries
+                  if (value == '#') {
+                    ordered[clone.title.replace(/.*?#(\d+).*/, '$1')] = clone;
+                  }
                 }
               }
             }
@@ -191,25 +200,12 @@
 
           // append the matched exercises or display an error message/hide the search results
           if (frag.childNodes.length) {
-            if (value == '#') {
-              // get the numerical id for each li and make an ordered object
-              for (var i = 0, a = frag.children, j = a.length, ordered = {}, max = 0, n; i < j; i++) {
-                n = Number(a[i].title.replace(/.*?#(\d+).*/, '$1'));
-                ordered[n] = a[i].cloneNode(true);
-                if (max < n) max = n;
+            if (value == '#') { // sort in-depth entries numerically
+              for (var k in ordered) {
+                frag.appendChild(ordered[k]);
               }
-              
-              // finally sort the li from 1-max and append it to the search results
-              for (var i = 0, frag = document.createDocumentFragment(), max = max + 1; i < max; i++) {
-                if (ordered[i]) {
-                  frag.appendChild(ordered[i]);
-                }
-              }
-              QuickSearcher.results.appendChild(frag);
-              
-            } else {
-              QuickSearcher.results.appendChild(frag);
             }
+            QuickSearcher.results.appendChild(frag);
 
           } else {
             QuickSearcher.results.innerHTML = value ? '<li>No results found for "' + value + '".</li>' : '';

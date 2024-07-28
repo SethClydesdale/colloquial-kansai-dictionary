@@ -460,6 +460,11 @@ Genki.jisho = {
   ],
 
   "え" : [
+    // CKJ
+    { ja : "ええ", en : "いい", v : "京都弁", l : "CKJ" },
+    { ja : "ええ恰好しい|ええかっこうしい", en : "pretentious", v : "A", l : "CKJ" },
+    { ja : "えぐい", en : "disgusting; nauseating", v : "A", l : "CKJ" },
+    
     // Tobira
     { ja : "絵|え", en : "picture; painting; drawing", v : "N", l : "L1会1" },
     { ja : "絵本|えほん", en : "picture book", v : "N", l : "L1会1" },
@@ -785,6 +790,7 @@ Genki.jisho = {
 
   "か" : [
     // CKJ
+    { ja : "恰好|かっこう", en : "appearance; shape", v : "N", l : "CKJ" },
     { ja : "株|かぶ", en : "stock; share", v : "N", l : "CKJ" },
     
     // Tobira
@@ -1141,6 +1147,7 @@ Genki.jisho = {
   "き" : [
     // CKJ
     { ja : "きつい", en : "tough; severe; extreme", v : "A", l : "CKJ" },
+    { ja : "京言葉|きょうことば", en : "Kyoto dialect", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "聞いたところによると|きいたところによると", en : "according to what I've heard", v : "Phr", l : "L10会1" },
@@ -3383,6 +3390,7 @@ Genki.jisho = {
     { ja : "どぎつい", en : "intense; extreme; gaudy", v : "A", l : "CKJ" },
     { ja : "とこ", en : "所(ところ)", v : "関西弁", l : "CKJ" },
     { ja : "どしたん", en : "どうした", v : "関西弁", l : "CKJ" },
+    { ja : "どす", en : "です", v : "京言葉", l : "CKJ" },
     { ja : "どつく", en : "to punch; to hit", v : "u-Vt", l : "CKJ" },
     { ja : "どつく", en : "殴る(なぐる)", v : "関西弁", l : "CKJ" },
     { ja : "どない", en : "how is it?", v : "Exp", l : "CKJ" },
