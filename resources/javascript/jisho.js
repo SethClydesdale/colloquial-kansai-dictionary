@@ -464,6 +464,10 @@ Genki.jisho = {
     { ja : "ええ", en : "いい", v : "京都弁", l : "CKJ" },
     { ja : "ええ恰好しい|ええかっこうしい", en : "pretentious", v : "A", l : "CKJ" },
     { ja : "えぐい", en : "disgusting; nauseating", v : "A", l : "CKJ" },
+    { ja : "えらいこっちゃ", en : "horrible; that's too bad", v : "Exp", l : "CKJ" },
+    { ja : "えらいこっちゃ", en : "大変だ", v : "関西弁", l : "CKJ" },
+    { ja : "えらい目に会う|えらいめにあう", en : "to have a bad day/time", v : "Exp", l : "CKJ" },
+    { ja : "えらい目に会う|えらいめにあう", en : "ひどい目に会う", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "絵|え", en : "picture; painting; drawing", v : "N", l : "L1会1" },
@@ -792,10 +796,13 @@ Genki.jisho = {
     // CKJ
     { ja : "恰好|かっこう", en : "appearance; shape", v : "N", l : "CKJ" },
     { ja : "株|かぶ", en : "stock; share", v : "N", l : "CKJ" },
+    { ja : "がめつい", en : "greedy", v : "A", l : "CKJ" },
+    { ja : "がめつい", en : "欲張り", v : "関西弁", l : "CKJ" },
+    { ja : "がな", en : "じゃないか！", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "-家|-か", en : "specialist", v : "Suf", l : "L7読1" },
-    { ja : "課|か", en : "lesson", v : "N", l : "L2読" },
+    { ja : "課|か", en : "lesson; department", v : "N", l : "L2読" },
     { ja : "カーソル", en : "cursor", v : "", l : "L3会3" },
     { ja : "カーナビ", en : "car navigation system", v : "N", l : "L3会2" },
     { ja : "階|かい", en : "floor", v : "N", l : "L1読" },
@@ -1146,6 +1153,7 @@ Genki.jisho = {
 
   "き" : [
     // CKJ
+    { ja : "祇園|ぎおん", en : "A traditional district near Kawaramachi in Kyoto famous for geiko.", v : "N", l : "CKJ" },
     { ja : "きつい", en : "tough; severe; extreme", v : "A", l : "CKJ" },
     { ja : "京言葉|きょうことば", en : "Kyoto dialect", v : "N", l : "CKJ" },
     
@@ -1369,6 +1377,7 @@ Genki.jisho = {
 
   "く" : [
     // CKJ
+    { ja : "ぐちゃぐちゃ", en : "sloppy; messy", v : "ANa", l : "CKJ" },
     { ja : "愚図|ぐず", en : "dullard", v : "N", l : "CKJ" },
     
     // Tobira
@@ -1460,7 +1469,11 @@ Genki.jisho = {
 
   "け" : [
     // CKJ
+    { ja : "芸子|げいこ", en : "geisha/Kyoto geisha", v : "N", l : "CKJ" },
     { ja : "けったい", en : "odd; strange; perverted", v : "A", l : "CKJ" },
+    { ja : "芸人|げいにん", en : "entertainer; performer", v : "N", l : "CKJ" },
+    { ja : "ゲラ", en : "A person who laughs hard", v : "N", l : "CKJ" },
+    { ja : "ゲラ", en : "笑い上戸(わらいじょうご)", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "毛|け", en : "hair; down; fur", v : "N", l : "L3読" },
@@ -1597,6 +1610,12 @@ Genki.jisho = {
   ],
 
   "こ" : [
+    // CKJ
+    { ja : "こっちゃ", en : "ことだ", v : "関西弁", l : "CKJ" },
+    { ja : "ごねる", en : "to whine; complain", v : "ru-Vi", l : "CKJ" },
+    { ja : "ごっつおさん/ごっそさん/ごっさん", en : "thanks for the food", v : "Exp", l : "CKJ" },
+    { ja : "ごっつおさん/ごっそさん/ごっさん", en : "ごちそうさまでした", v : "関西弁", l : "CKJ" },
+    
     // Tobira
     { ja : "-後|-ご", en : "(hours, days, years, etc.) later", v : "Suf", l : "L5読" },
     { ja : "こいのぼり", en : "carp-shaped streamer", v : "N", l : "L13読2" },
@@ -1840,6 +1859,9 @@ Genki.jisho = {
   ],
 
   "さ" : [
+    // CKJ
+    { ja : "騒ぎ立てる|さわぎたてる", en : "to make a great fuss", v : "ru-Vi", l : "CKJ" },
+    
     // Tobira
     { ja : "差|さ", en : "gap; difference", v : "N", l : "L1読" },
     { ja : "サークル", en : "circle; club", v : "N", l : "L4会2" },
@@ -3594,6 +3616,9 @@ Genki.jisho = {
   ],
 
   "な" : [
+    // CKJ
+    { ja : "難儀|なんぎ", en : "hardship; difficulty; suffering", v : "ANa", l : "CKJ" },
+    
     // Tobira
     { ja : "-内|-ない", en : "within", v : "Suf", l : "L14討" },
     { ja : "内部|ないぶ", en : "internal; interior", v : "N", l : "Tobira: 漢字表" },
@@ -4120,6 +4145,10 @@ Genki.jisho = {
   ],
 
   "ひ" : [
+    // CKJ
+    { ja : "ひどい目に会う|ひどいめにあう", en : "to have a bad day/time", v : "Exp", l : "CKJ" },
+    { ja : "非常に|ひじょうに", en : "very; extremely", v : "Adv", l : "CKJ" },
+    
     // Tobira
     { ja : "日|ひ", en : "day", v : "N", l : "L1読" },
     { ja : "冷える|ひえる", en : "to grow cold; get chilly", v : "ru-Vi", l : "Tobira: 漢字表" },
@@ -4822,6 +4851,9 @@ Genki.jisho = {
   ],
 
   "め" : [
+    // CKJ
+    { ja : "目に会う|めにあう", en : "to go through; experience; suffer", v : "Exp", l : "CKJ" },
+    
     // Tobira
     { ja : "名医|めいい", en : "noted doctor; excellent physician", v : "N", l : "Tobira: 漢字表" },
     { ja : "名画|めいが", en : "famous picture; masterpiece (painting)", v : "N", l : "Tobira: 漢字表" },
@@ -5305,6 +5337,9 @@ Genki.jisho = {
   ],
 
   "わ" : [
+    // CKJ
+    { ja : "笑い上戸|わらいじょうご", en : "one who laughs easily", v : "N", l : "CKJ" },
+    
     // Tobira
     { ja : "-羽|-わ", en : "counter for birds/rabbits", v : "Count", l : "L12会" },
     { ja : "ワイワイ", en : "boisterously; rowdily; noisily", v : "Adv", l : "L7会1" },
