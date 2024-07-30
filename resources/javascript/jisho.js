@@ -23,6 +23,7 @@ Genki.jisho = {
     // CKJ
     { ja : "あかん", en : "no; no good; bad; useless; impossible; expletive", v : "Exp", l : "CKJ" },
     { ja : "あっこ", en : "over there", v : "N", l : "CKJ" },
+    { ja : "憧れる|あこがれる", en : "to long for; admire", v : "ru-Vi", l : "CKJ" },
     { ja : "アホくさ", en : "stupid thing", v : "Exp", l : "CKJ" },
     { ja : "アホ", en : "fool; stupid; foolish", v : "N", l : "CKJ" },
     { ja : "阿呆|あほう", en : "fool; stupid; foolish", v : "N", l : "CKJ" },
@@ -554,6 +555,7 @@ Genki.jisho = {
 
   "お" : [
     // CKJ
+    { ja : "押し付ける|おしつける", en : "to push on/against", v : "ru-Vt", l : "CKJ" },
     { ja : "お前|おまえ", en : "you", v : "N", l : "CKJ" },
     { ja : "おもろい", en : "面白い(おもしろい)", v : "関西弁", l : "CKJ" },
     
@@ -1156,6 +1158,8 @@ Genki.jisho = {
     { ja : "祇園|ぎおん", en : "A traditional district near Kawaramachi in Kyoto famous for geiko.", v : "N", l : "CKJ" },
     { ja : "きつい", en : "tough; severe; extreme", v : "A", l : "CKJ" },
     { ja : "京言葉|きょうことば", en : "Kyoto dialect", v : "N", l : "CKJ" },
+    { ja : "仰山/ようけ/ようさん|ぎょうさん/ようけ/ようさん", en : "a lot; many", v : "Adv", l : "CKJ" },
+    { ja : "仰山/ようけ/ようさん|ぎょうさん/ようけ/ようさん", en : "たくさん", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "聞いたところによると|きいたところによると", en : "according to what I've heard", v : "Phr", l : "L10会1" },
@@ -1613,6 +1617,8 @@ Genki.jisho = {
     // CKJ
     { ja : "こっちゃ", en : "ことだ", v : "関西弁", l : "CKJ" },
     { ja : "ごねる", en : "to whine; complain", v : "ru-Vi", l : "CKJ" },
+    { ja : "ごっつい", en : "very, big", v : "A", l : "CKJ" },
+    { ja : "ごっつい", en : "とても; 大きい", v : "関西弁", l : "CKJ" },
     { ja : "ごっつおさん/ごっそさん/ごっさん", en : "thanks for the food", v : "Exp", l : "CKJ" },
     { ja : "ごっつおさん/ごっそさん/ごっさん", en : "ごちそうさまでした", v : "関西弁", l : "CKJ" },
     
@@ -1860,6 +1866,7 @@ Genki.jisho = {
 
   "さ" : [
     // CKJ
+    { ja : "雑用|ざつよう", en : "chores; odd jobs", v : "N", l : "CKJ" },
     { ja : "騒ぎ立てる|さわぎたてる", en : "to make a great fuss", v : "ru-Vi", l : "CKJ" },
     
     // Tobira
@@ -2021,6 +2028,9 @@ Genki.jisho = {
   ],
 
   "し" : [
+    // CKJ
+    { ja : "自分自身|じぶんじしん", en : "oneself", v : "N", l : "CKJ" },
+    
     // Tobira
     { ja : "-氏|-し", en : "Mr./Ms.", v : "Suf", l : "L10読" },
     { ja : "市|し", en : "city; town", v : "N", l : "L1読" },
@@ -3929,6 +3939,15 @@ Genki.jisho = {
   ],
 
   "は" : [
+    // CKJ
+    { ja : "はがいい", en : "frustrating", v : "A", l : "CKJ" },
+    { ja : "はがいい", en : "歯がゆい", v : "関西弁", l : "CKJ" },
+    { ja : "歯がゆい|はがゆい", en : "frustrating; impatient", v : "A", l : "CKJ" },
+    { ja : "腹立つ|はらだつ", en : "to get angry", v : "u-V", l : "CKJ" },
+    { ja : "-はる", en : "なさる", v : "関西弁", l : "CKJ" },
+    { ja : "-はん", en : "-さん", v : "関西弁", l : "CKJ" },
+    { ja : "阪神|はんしん", en : "Hanshin Tigers baseball team; Hanshin Railway; Hanshin Department Store; Osaka-Kobe region; Hanshin horse racing track in Takarazuka", v : "N", l : "CKJ" },
+    
     // Tobira
     { ja : "葉|は", en : "leaf", v : "N", l : "L12発" },
     { ja : "派|は", en : "clique; group", v : "N", l : "Tobira: 漢字表" },
@@ -4148,6 +4167,7 @@ Genki.jisho = {
     // CKJ
     { ja : "ひどい目に会う|ひどいめにあう", en : "to have a bad day/time", v : "Exp", l : "CKJ" },
     { ja : "非常に|ひじょうに", en : "very; extremely", v : "Adv", l : "CKJ" },
+    { ja : "百貨店|ひゃっかてん", en : "department store", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "日|ひ", en : "day", v : "N", l : "L1読" },
@@ -4852,6 +4872,8 @@ Genki.jisho = {
 
   "め" : [
     // CKJ
+    { ja : "めっちゃ/むっちゃ", en : "very; extremely", v : "Adv", l : "CKJ" },
+    { ja : "めっちゃ/むっちゃ", en : "とても", v : "関西弁", l : "CKJ" },
     { ja : "目に会う|めにあう", en : "to go through; experience; suffer", v : "Exp", l : "CKJ" },
     
     // Tobira
