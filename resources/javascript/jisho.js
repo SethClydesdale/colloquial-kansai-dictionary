@@ -2030,6 +2030,7 @@ Genki.jisho = {
   "し" : [
     // CKJ
     { ja : "自分自身|じぶんじしん", en : "oneself", v : "N", l : "CKJ" },
+    { ja : "滋賀|じが", en : "Shiga (prefecture)", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "-氏|-し", en : "Mr./Ms.", v : "Suf", l : "L10読" },
@@ -3628,6 +3629,7 @@ Genki.jisho = {
   "な" : [
     // CKJ
     { ja : "難儀|なんぎ", en : "hardship; difficulty; suffering", v : "ANa", l : "CKJ" },
+    { ja : "何ぼ|なんぼ", en : "how much", v : "Adv", l : "CKJ" },
     
     // Tobira
     { ja : "-内|-ない", en : "within", v : "Suf", l : "L14討" },
@@ -3947,6 +3949,8 @@ Genki.jisho = {
     { ja : "-はる", en : "なさる", v : "関西弁", l : "CKJ" },
     { ja : "-はん", en : "-さん", v : "関西弁", l : "CKJ" },
     { ja : "阪神|はんしん", en : "Hanshin Tigers baseball team; Hanshin Railway; Hanshin Department Store; Osaka-Kobe region; Hanshin horse racing track in Takarazuka", v : "N", l : "CKJ" },
+    { ja : "はよ", en : "early; quickly", v : "Adv", l : "CKJ" },
+    { ja : "はよ", en : "早く; 速く; はやく", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "葉|は", en : "leaf", v : "N", l : "L12発" },
@@ -4474,6 +4478,9 @@ Genki.jisho = {
   ],
 
   "へ" : [
+    // CKJ
+    { ja : "-へん", en : "-ない", v : "関西弁", l : "CKJ" },
+    
     // Tobira
     { ja : "閉会|へいかい", en : "closure (of a ceremony, event, meeting, etc.)", v : "N", l : "Tobira: 漢字表" },
     { ja : "平気（な）|へいき（な）", en : "unconcerned; cool", v : "ANa", l : "L15討" },
@@ -4529,7 +4536,14 @@ Genki.jisho = {
 
   "ほ" : [
     // CKJ
+    { ja : "ほかす", en : "to throw away", v : "u-Vt", l : "CKJ" },
+    { ja : "ほかす", en : "捨てる(すてる)", v : "関西弁", l : "CKJ" },
+    { ja : "保管|ほかん", en : "save; keep; store", v : "VN", l : "CKJ" },
     { ja : "ぼちぼち", en : "so-so; not bad; no problem; fine; not good", v : "A", l : "CKJ" },
+    { ja : "ほな/ほなら/そんなら", en : "in that case; if so; then, see you later", v : "Conj", l : "CKJ" },
+    { ja : "ほな/ほなら/そんなら", en : "それなら", v : "関西弁", l : "CKJ" },
+    { ja : "ほんで", en : "then; after that; and", v : "Conj", l : "CKJ" },
+    { ja : "ほんで", en : "それで、それから", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "補助|ほじょ", en : "assistance; support; aid", v : "VN", l : "Tobira: 漢字表" },
