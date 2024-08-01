@@ -190,6 +190,17 @@ Genki.jisho = {
   ],
 
   "い" : [
+    // CKJ
+    { ja : "いけず", en : "mean; nasty", v : "ANa", l : "CKJ" },
+    { ja : "いけず", en : "意地悪(いじわる)", v : "関西弁", l : "CKJ" },
+    { ja : "いちゃもん", en : "complain; whine", v : "N", l : "CKJ" },
+    { ja : "いちゃもん", en : "文句(もんく)", v : "関西弁", l : "CKJ" },
+    { ja : "いちびり", en : "dolt; clown; easily excitable person", v : "N", l : "CKJ" },
+    { ja : "いちびり", en : "お調子者(おちょうしもの)", v : "関西弁", l : "CKJ" },
+    { ja : "いちびる", en : "to clown around; act stupid", v : "u-Vi", l : "CKJ" },
+    { ja : "いっこも", en : "not even a little bit; not at all (preceding negative verb or adjective)", v : "Adv", l : "CKJ" },
+    { ja : "いっこも", en : "全然(ぜんぜん)", v : "関西弁", l : "CKJ" },
+    
     // Tobira
     { ja : "-位|-い", en : "rank", v : "Suf", l : "L7会2" },
     { ja : "言い伝え|いいつたえ", en : "legend; tradition", v : "N", l : "L12会" },
@@ -556,6 +567,7 @@ Genki.jisho = {
   "お" : [
     // CKJ
     { ja : "押し付ける|おしつける", en : "to push on/against", v : "ru-Vt", l : "CKJ" },
+    { ja : "お調子者|おちょうしもの", en : "person who gets easily elated (when praised, etc.)", v : "N", l : "CKJ" },
     { ja : "お前|おまえ", en : "you", v : "N", l : "CKJ" },
     { ja : "おもろい", en : "面白い(おもしろい)", v : "関西弁", l : "CKJ" },
     
@@ -4538,12 +4550,20 @@ Genki.jisho = {
     // CKJ
     { ja : "ほかす", en : "to throw away", v : "u-Vt", l : "CKJ" },
     { ja : "ほかす", en : "捨てる(すてる)", v : "関西弁", l : "CKJ" },
+    { ja : "ほる", en : "to throw (away)", v : "u-Vt", l : "CKJ" },
+    { ja : "ほる", en : "捨てる(すてる)", v : "関西弁", l : "CKJ" },
     { ja : "保管|ほかん", en : "save; keep; store", v : "VN", l : "CKJ" },
     { ja : "ぼちぼち", en : "so-so; not bad; no problem; fine; not good", v : "A", l : "CKJ" },
-    { ja : "ほな/ほなら/そんなら", en : "in that case; if so; then, see you later", v : "Conj", l : "CKJ" },
-    { ja : "ほな/ほなら/そんなら", en : "それなら", v : "関西弁", l : "CKJ" },
+    { ja : "ほな/ほなら/ほんなら/そんなら", en : "in that case; if so; then, see you later", v : "Conj", l : "CKJ" },
+    { ja : "ほな/ほなら/ほんなら/そんなら", en : "それなら", v : "関西弁", l : "CKJ" },
     { ja : "ほんで", en : "then; after that; and", v : "Conj", l : "CKJ" },
     { ja : "ほんで", en : "それで、それから", v : "関西弁", l : "CKJ" },
+    { ja : "ほんでも", en : "but; nevertheless", v : "Conj", l : "CKJ" },
+    { ja : "ほんでも", en : "それでも", v : "関西弁", l : "CKJ" },
+    { ja : "ほんじゃ", en : "see you later; goodbye; in that case", v : "Exp", l : "CKJ" },
+    { ja : "ほんじゃ", en : "それじゃ", v : "関西弁", l : "CKJ" },
+    { ja : "ほんま(に)", en : "really", v : "N/Adv", l : "CKJ" },
+    { ja : "ほんま(に)", en : "本当(ほんとう)", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "補助|ほじょ", en : "assistance; support; aid", v : "VN", l : "Tobira: 漢字表" },
