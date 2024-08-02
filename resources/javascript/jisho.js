@@ -193,13 +193,23 @@ Genki.jisho = {
     // CKJ
     { ja : "いけず", en : "mean; nasty", v : "ANa", l : "CKJ" },
     { ja : "いけず", en : "意地悪(いじわる)", v : "関西弁", l : "CKJ" },
+    { ja : "行こ|いこ", en : "let's go", v : "Exp", l : "CKJ" },
+    { ja : "行こ|いこ", en : "行こう", v : "関西弁", l : "CKJ" },
     { ja : "いちゃもん", en : "complain; whine", v : "N", l : "CKJ" },
     { ja : "いちゃもん", en : "文句(もんく)", v : "関西弁", l : "CKJ" },
     { ja : "いちびり", en : "dolt; clown; easily excitable person", v : "N", l : "CKJ" },
     { ja : "いちびり", en : "お調子者(おちょうしもの)", v : "関西弁", l : "CKJ" },
     { ja : "いちびる", en : "to clown around; act stupid", v : "u-Vi", l : "CKJ" },
+    { ja : "いっちゃん", en : "number 1; most", v : "N", l : "CKJ" },
+    { ja : "いっちゃん", en : "一番(いちばん)", v : "関西弁", l : "CKJ" },
+    { ja : "いっちょまえ", en : "self-important", v : "N", l : "CKJ" },
+    { ja : "いっちょまえ", en : "一人前(いちにんまえ)", v : "関西弁", l : "CKJ" },
     { ja : "いっこも", en : "not even a little bit; not at all (preceding negative verb or adjective)", v : "Adv", l : "CKJ" },
     { ja : "いっこも", en : "全然(ぜんぜん)", v : "関西弁", l : "CKJ" },
+    { ja : "いらう", en : "to touch; meddle with", v : "u-Vt", l : "CKJ" },
+    { ja : "いらう", en : "触る(さわる); いじる", v : "関西弁", l : "CKJ" },
+    { ja : "いらち", en : "irritable; impatient", v : "ANa", l : "CKJ" },
+    { ja : "いらち", en : "気が短い(きがみじかい); せっかち", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "-位|-い", en : "rank", v : "Suf", l : "L7会2" },
