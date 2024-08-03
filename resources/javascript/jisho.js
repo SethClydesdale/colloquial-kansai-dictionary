@@ -484,7 +484,7 @@ Genki.jisho = {
   "え" : [
     // CKJ
     { ja : "ええ", en : "いい", v : "京都弁", l : "CKJ" },
-    { ja : "ええ恰好しい|ええかっこうしい", en : "pretentious", v : "A", l : "CKJ" },
+    { ja : "ええ恰好しい|ええかっこしい", en : "pretentious", v : "A", l : "CKJ" },
     { ja : "えぐい", en : "disgusting; nauseating", v : "A", l : "CKJ" },
     { ja : "えらいこっちゃ", en : "horrible; that's too bad", v : "Exp", l : "CKJ" },
     { ja : "えらいこっちゃ", en : "大変だ", v : "関西弁", l : "CKJ" },
@@ -818,11 +818,30 @@ Genki.jisho = {
 
   "か" : [
     // CKJ
+    { ja : "かいな", en : "sarcastic sentence ending; sentence ending expressing doubt; demand", v : "Prt", l : "CKJ" },
+    { ja : "かっこ", en : "appearance; shape", v : "N", l : "CKJ" },
+    { ja : "かっこ", en : "恰好(かっこう)", v : "関西弁", l : "CKJ" },
     { ja : "恰好|かっこう", en : "appearance; shape", v : "N", l : "CKJ" },
     { ja : "株|かぶ", en : "stock; share", v : "N", l : "CKJ" },
+    { ja : "かて", en : "even; even if; even though", v : "Prt", l : "CKJ" },
+    { ja : "かて", en : "も、-ても、でも、でさえ", v : "関西弁", l : "CKJ" },
+    { ja : "かつかつ", en : "barely surviving; barely in time", v : "Adv/ANa", l : "CKJ" },
+    { ja : "かつかつ", en : "ぎりぎり", v : "関西弁", l : "CKJ" },
+    { ja : "構わない|かまわない", en : "don't mind; no problem", v : "Exp", l : "CKJ" },
+    { ja : "かまへん/かめへん", en : "don't mind; no problem", v : "Exp", l : "CKJ" },
+    { ja : "かまへん/かめへん", en : "構わない(かまわない)", v : "関西弁", l : "CKJ" },
     { ja : "がめつい", en : "greedy", v : "A", l : "CKJ" },
     { ja : "がめつい", en : "欲張り", v : "関西弁", l : "CKJ" },
     { ja : "がな", en : "じゃないか！", v : "関西弁", l : "CKJ" },
+    { ja : "かなわない", en : "troubled; stuck; can't win; can't stand something", v : "A", l : "CKJ" },
+    { ja : "かなわん", en : "troubled; stuck; can't win; can't stand something", v : "A", l : "CKJ" },
+    { ja : "かなわん", en : "かなわない", v : "関西弁", l : "CKJ" },
+    { ja : "勘違い|かんちがい", en : "misunderstanding", v : "VN", l : "CKJ" },
+    { ja : "関東煮|かんとうだき", en : "oden [Kansai-ben]", v : "N", l : "CKJ" },
+    { ja : "関東煮|かんとうだき", en : "おでん", v : "関西弁", l : "CKJ" },
+    { ja : "勘弁する|かんべんする", en : "excuse me; forgive me; have patience with me", v : "VN", l : "CKJ" },
+    { ja : "堪忍する/かにする|かんにんする/かにする", en : "excuse me; forgive me; have patience with me", v : "VN", l : "CKJ" },
+    { ja : "堪忍する/かにする|かんにんする/かにする", en : "勘弁する(かんべんする)", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "-家|-か", en : "specialist", v : "Suf", l : "L7読1" },
@@ -1179,6 +1198,7 @@ Genki.jisho = {
     // CKJ
     { ja : "祇園|ぎおん", en : "A traditional district near Kawaramachi in Kyoto famous for geiko.", v : "N", l : "CKJ" },
     { ja : "きつい", en : "tough; severe; extreme", v : "A", l : "CKJ" },
+    { ja : "ぎりぎり", en : "barely surviving; barely in time", v : "Adv", l : "CKJ" },
     { ja : "京言葉|きょうことば", en : "Kyoto dialect", v : "N", l : "CKJ" },
     { ja : "仰山/ようけ/ようさん|ぎょうさん/ようけ/ようさん", en : "a lot; many", v : "Adv", l : "CKJ" },
     { ja : "仰山/ようけ/ようさん|ぎょうさん/ようけ/ようさん", en : "たくさん", v : "関西弁", l : "CKJ" },
@@ -1496,6 +1516,7 @@ Genki.jisho = {
   "け" : [
     // CKJ
     { ja : "芸子|げいこ", en : "geisha/Kyoto geisha", v : "N", l : "CKJ" },
+    { ja : "京阪神|けいはんしん", en : "Kyoto-Osaka-Kobe", v : "N", l : "CKJ" },
     { ja : "けったい", en : "odd; strange; perverted", v : "A", l : "CKJ" },
     { ja : "芸人|げいにん", en : "entertainer; performer", v : "N", l : "CKJ" },
     { ja : "ゲラ", en : "A person who laughs hard", v : "N", l : "CKJ" },
@@ -2051,6 +2072,8 @@ Genki.jisho = {
 
   "し" : [
     // CKJ
+    { ja : "自分|じぶん", en : "you [Kansai-ben]", v : "N", l : "CKJ" },
+    { ja : "自分|じぶん", en : "あなた", v : "関西弁", l : "CKJ" },
     { ja : "自分自身|じぶんじしん", en : "oneself", v : "N", l : "CKJ" },
     { ja : "滋賀|じが", en : "Shiga (prefecture)", v : "N", l : "CKJ" },
     
