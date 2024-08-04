@@ -20,6 +20,7 @@
 }
 
 /* dictionary styles */
+.lesson-exercises { display:none; }
 .main-color { color:#C33; }
 .example {
   border:1px solid #CCC;
@@ -869,6 +870,8 @@ footer li:first-child:before { display:none; }
 .helper-present .furigana-show { display:none; }
 
 .helper-hidden .button.furigana-toggler { background:#666; }
+.helper-hidden .button.furigana-toggler:hover { background:#555; }
+.helper-hidden .button.furigana-toggler:focus { background:#444; }
 
 ruby {
   /* START ruby-position:under; hack */
@@ -901,7 +904,7 @@ ruby rt {
   padding:0 2px;
 }
 
-.workbook-title ruby rt, #index-list li a ruby rt, .main-color ruby rt, #quick-search-results ruby rt {
+.workbook-title ruby rt, #index-list li a ruby rt, .main-color ruby rt, #quick-search-results ruby rt, a ruby rt {
   color:#933;
 }
 

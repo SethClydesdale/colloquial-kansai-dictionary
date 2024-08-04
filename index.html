@@ -42,7 +42,10 @@
             <button class="button announce-controls button-left" onclick="GenkiAnn.next(-1, true);"><i class="fa">&#xf060;</i></button>
             <button class="button announce-controls button-right" onclick="GenkiAnn.next(+1, true);"><i class="fa">&#xf061;</i></button>
           </div>
-          <noscript><div class="announcement">Please enable JavaScript to get the latest news and info.</div></noscript>
+          <noscript>
+            <div class="announcement">Please enable JavaScript to get the latest news and info.</div>
+            <style>.lesson-exercises {display:block}.section-toggler{display:none}</style>
+          </noscript>
         </div>
       </div>
     </div>
@@ -66,7 +69,10 @@
           <li>Search「<ruby>関西弁<rt>かんさいべん</rt></ruby>」in the Quick Dictionary (button in bottom right) to bring up a list of Kansai-ben and Standard Japanese equivalents. You can also select parts of speech with the cursor and click the "Look up" button that appears to bring up its entry in the dictionary.</li>
           <li>Search "#" in the Quick Search to bring up a list of entries that have in-depth explanations.</li>
           <li style="padding-bottom:8px;padding-top:2px;">Press <code>CTRL+SHIFT+F</code> to quickly toggle furigana on or off. You can also toggle it via the Quick Navigation (button in top left).</li>
+          <li style="padding-bottom:8px;padding-top:2px;">All sections are collapsed by default, but you can use the button below if you want to display all entries at once.</li>
         </ul>
+        
+        <div id="check-answers" class="center"><button class="button" onclick="GenkiSettings.manager(); return false;"><i class="fa">&#xf013;</i>Site Settings</button><button class="button" onclick="CKJDict.toggleAll(this);"><i class="fa">&#xf07c;</i>Show All Entries</button><button class="button furigana-toggler" onclick="Genki.toggle.furigana(this);"><i class="fa">&#xf2a8;</i>Furigana: <span class="furigana-show">OFF</span><span class="furigana-hide">ON</span></button></div>
 
         <div id="quick-actions" class="columns-2 clear">
           <div>
@@ -110,6 +116,7 @@
         </div>
 
         <h2 id="A" class="lesson-title">A</h2>
+        <div class="center"><button id="toggler-A" class="button section-toggler" onclick="CKJDict.toggle(this, 'A');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-A" class="lesson-exercises">
           <h3 id="A1" class="workbook-title"><ruby>阿呆<rt>あほう</rt></ruby>、アホ <span class="page-data">p.18-19, 147; #1</span></h3>
           <table class="table grammar-table">
@@ -687,6 +694,7 @@
         </div>
         
         <h2 id="B" class="lesson-title">B</h2>
+        <div class="center"><button id="toggler-B" class="button section-toggler" onclick="CKJDict.toggle(this, 'B');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-B" class="lesson-exercises">
           <h3 id="B1" class="workbook-title"><ruby>勉強<rt>べんきょう</rt></ruby>する <span class="page-data">p.93, 148</span></h3>
           <table class="table grammar-table">
@@ -922,6 +930,7 @@
         </div>
         
         <h2 id="C" class="lesson-title">C</h2>
+        <div class="center"><button id="toggler-C" class="button section-toggler" onclick="CKJDict.toggle(this, 'C');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-C" class="lesson-exercises">
           <h3 id="C1" class="workbook-title">ちゃう <span class="page-data">p.13, 24-25, 148; #3</span></h3>
           <table class="table grammar-table">
@@ -1126,6 +1135,7 @@
         </div>
         
         <h2 id="D" class="lesson-title">D</h2>
+        <div class="center"><button id="toggler-D" class="button section-toggler" onclick="CKJDict.toggle(this, 'D');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-D" class="lesson-exercises">
           <h3 id="D1" class="workbook-title">ダボ <span class="page-data">p.149</span></h3>
           <table class="table grammar-table">
@@ -1705,6 +1715,7 @@
         </div>
           
         <h2 id="E" class="lesson-title">E</h2>
+        <div class="center"><button id="toggler-E" class="button section-toggler" onclick="CKJDict.toggle(this, 'E');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-E" class="lesson-exercises">
           <h3 id="E1" class="workbook-title">え <span class="page-data">p.52</span></h3>
           <table class="table grammar-table">
@@ -2187,6 +2198,7 @@
         </div>
           
         <h2 id="G" class="lesson-title">G</h2>
+        <div class="center"><button id="toggler-G" class="button section-toggler" onclick="CKJDict.toggle(this, 'G');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-G" class="lesson-exercises">
           <h3 id="G1" class="workbook-title">がめつい <span class="page-data">p.150</span></h3>
           <table class="table grammar-table">
@@ -2559,6 +2571,7 @@
         </div>
           
         <h2 id="H" class="lesson-title">H</h2>
+        <div class="center"><button id="toggler-H" class="button section-toggler" onclick="CKJDict.toggle(this, 'H');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-H" class="lesson-exercises">
           <h3 id="H1" class="workbook-title">はがいい <span class="page-data">p.89, 151; #32</span></h3>
           <table class="table grammar-table">
@@ -3533,6 +3546,7 @@
         </div>
           
         <h2 id="I" class="lesson-title">I</h2>
+        <div class="center"><button id="toggler-I" class="button section-toggler" onclick="CKJDict.toggle(this, 'I');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-I" class="lesson-exercises">
           <h3 id="I1" class="workbook-title">いちゃもん <span class="page-data">p.152</span></h3>
           <table class="table grammar-table">
@@ -3859,6 +3873,7 @@
         </div>
           
         <h2 id="J" class="lesson-title">J</h2>
+        <div class="center"><button id="toggler-J" class="button section-toggler" onclick="CKJDict.toggle(this, 'J');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-J" class="lesson-exercises">
           <h3 id="J1" class="workbook-title"><ruby>自分<rt>じぶん</rt></ruby> <span class="page-data">p.137, 145, 153</span></h3>
           <table class="table grammar-table">
@@ -3893,6 +3908,7 @@
         </div>
           
         <h2 id="K" class="lesson-title">K</h2>
+        <div class="center"><button id="toggler-K" class="button section-toggler" onclick="CKJDict.toggle(this, 'K');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-K" class="lesson-exercises">
           <h3 id="K1" class="workbook-title">かいな <span class="page-data">p.75, 100-102, 112, 154; #41</span></h3>
           <table class="table grammar-table">
@@ -4564,7 +4580,147 @@
           </table>
           <br>
           
-          <!--<h3 id="K10" class="workbook-title">TODO <span class="page-data">p.</span></h3>
+          <h3 id="K10" class="workbook-title"><ruby>関空<rt>かんくう</rt></ruby> <span class="page-data">p.98</span></h3>
+          <table class="table grammar-table">
+            <tr>
+              <td>意味</td>
+              <td>Kansai International Airport</td>
+            </tr>
+            <tr>
+              <td>説明</td>
+              <td><ruby>関空<rt>かんくう</rt></ruby> is short for <ruby>関西国際空港<rt>かんさいこくさいくうこう</rt></ruby>, the international airport in Osaka Bay.</td>
+            </tr>
+            <tr>
+              <td>会話</td>
+              <td>
+                <div class="columns-2 clear">
+                  <div class="example">
+                    <div class="line">
+                      <div class="name"><ruby>本田<rt>ほんだ</rt></ruby></div>
+                      <div class="text"><strong class="main-color"><ruby>関空<rt>かんくう</rt></ruby></strong>まで<ruby>乗<rt>の</rt></ruby>したろか？</div>
+                    </div>
+                    <div class="line">
+                      <div class="name"><ruby>鈴木<rt>すずき</rt></ruby></div>
+                      <div class="text">あ、ほんまに？ほんなら<ruby>頼<rt>たの</rt></ruby>むわ。</div>
+                    </div>
+                    
+                  </div>
+
+                  <div class="example">
+                    <div class="line">
+                      <div class="name">Honda</div>
+                      <div class="text">Do you want a ride to the <strong class="main-color">airport</strong>?</div>
+                    </div>
+                    <div class="line">
+                      <div class="name">Suzuki</div>
+                      <div class="text">Really? Well, if you're offering, please.</div>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <br>
+          
+          <h3 id="K11" class="workbook-title">かしわ <span class="page-data">p.122</span></h3>
+          <table class="table grammar-table">
+            <tr>
+              <td>意味</td>
+              <td>chicken meat</td>
+            </tr>
+            <tr>
+              <td>標準語</td>
+              <td><ruby>鶏肉<rt>とりにく</rt></ruby></td>
+            </tr>
+            <tr>
+              <td>説明</td>
+              <td>In Kansai, <ruby>鶏肉<rt>とりにく</rt></ruby> is called かしわ.</td>
+            </tr>
+            <tr>
+              <td>例文</td>
+              <td>
+                <div class="columns-2 clear">
+                  <div class="example">
+                    あの店の<strong class="main-color">かしわ</strong>おにぎりがたまらん…
+                  </div>
+
+                  <div class="example">
+                    That shop's <strong class="main-color">chicken</strong> rice balls are irresistable...
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <br>
+          
+          <h3 id="K12" class="workbook-title"><ruby>河原町<rt>かわらまち</rt></ruby> <span class="page-data">p.155</span></h3>
+          <table class="table grammar-table">
+            <tr>
+              <td>意味</td>
+              <td>main shopping and entertainment district of central Kyoto</td>
+            </tr>
+            <tr>
+              <td>例文</td>
+              <td>
+                <div class="columns-2 clear">
+                  <div class="example">
+                    <strong class="main-color"><ruby>河原町<rt>かわらまち</rt></ruby></strong>にかいもん<ruby>行<rt>い</rt></ruby>くで。
+                  </div>
+
+                  <div class="example">
+                    Let's go shopping at <strong class="main-color">Kawaramachi</strong>!
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <br>
+          
+          <h3 id="K13" class="workbook-title"><ruby>京阪神<rt>けいはんしん</rt></ruby> <span class="page-data">p.11, 155</span></h3>
+          <table class="table grammar-table">
+            <tr>
+              <td>意味</td>
+              <td>tri-city region of Kyoto, Osaka, and Kobe</td>
+            </tr>
+            <tr>
+              <td>説明</td>
+              <td>See <a href="#K6"><ruby>関西<rt>かんさい</rt></ruby></a> for more details.</td>
+            </tr>
+          </table>
+          <br>
+          
+          <h3 id="K14" class="workbook-title">けえへん、きいへん、きいひん <span class="page-data">p.35, 155</span></h3>
+          <table class="table grammar-table">
+            <tr>
+              <td>意味</td>
+              <td>don't come</td>
+            </tr>
+            <tr>
+              <td>標準語</td>
+              <td><ruby>来<rt>こ</rt></ruby>ない</td>
+            </tr>
+            <tr>
+              <td>説明</td>
+              <td><a href="#H6">See 12</a> for more details.</td>
+            </tr>
+            <tr>
+              <td>例文</td>
+              <td>
+                <div class="columns-2 clear">
+                  <div class="example">
+                    <ruby>今晩<rt>こんばん</rt></ruby>、こっち<strong class="main-color">けえへん</strong>か？
+                  </div>
+
+                  <div class="example">
+                    Why <strong class="main-color">don't you come</strong> over here tonight?
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <br>
+          
+          <!--<h3 id="K15" class="workbook-title">TODO <span class="page-data">p.</span></h3>
           <table class="table grammar-table">
             <tr>
               <td>意味</td>
@@ -4614,6 +4770,7 @@
 
         <!--
         <h2 id="" class="lesson-title">E</h2>
+        <div class="center"><button id="toggler-E" class="button section-toggler" onclick="CKJDict.toggle(this, 'E');"><i class="fa">&#xf07c;</i>Show Section</button></div>
         <div id="section-E" class="lesson-exercises">
           <h3 id="E" class="workbook-title">TODO <span class="page-data">p.</span></h3>
           <table class="table grammar-table">

@@ -308,4 +308,78 @@
   // Add arrows to each lesson title that will take the student back to the index
   AddJumpArrowsTo('.lesson-title', 'index', 'Jump to Index');
   
+  
+  // # ENTRY SECTION TOGGLER #
+  // toggles the display on entries by section
+  window.CKJDict = {
+    // toggles entries
+    toggle : function (caller, id) {
+      var list = document.getElementById('section-' + id);
+
+      // show entries
+      if (/Show/.test(caller.innerHTML)) {
+        list.style.display = 'block';
+        caller.innerHTML = caller.innerHTML.replace('Show', 'Hide');
+      }
+
+      // hide entries
+      else {
+        list.style.display = '';
+        caller.innerHTML = caller.innerHTML.replace('Hide', 'Show');
+      }
+    },
+    
+    // toggles the display state of all entries
+    toggleAll : function (caller) {
+      var state = /Show/.test(caller.innerHTML) ? 'show' : 'hide';
+      
+      if (!CKJDict.buttons) {
+        CKJDict.buttons = document.querySelectorAll('.section-toggler');
+      }
+      
+      for (var i = 0, j = CKJDict.buttons.length; i < j; i++) {
+        if (state == 'show' && /Show/.test(CKJDict.buttons[i].innerHTML)) {
+          CKJDict.buttons[i].click();
+        }
+
+        else if (state == 'hide' && /Hide/.test(CKJDict.buttons[i].innerHTML)) {
+          CKJDict.buttons[i].click();
+        }
+      }
+      
+      caller.innerHTML = state == 'show' ? caller.innerHTML.replace('Show', 'Hide') : caller.innerHTML.replace('Hide', 'Show');
+    },
+    
+    // jumps to the specified entry in the URL
+    jump : function () {
+      if (/[A-Z]\d+|[A-Z]$/.test(window.location.hash)) {
+        var id = window.location.hash.slice(1),
+            button = document.getElementById('toggler-' + id.replace(/\d+/g, ''));
+        
+        // open grammar points if they're closed
+        if (/Show/.test(button.innerHTML)) {
+          button.click();
+          
+          try {
+            document.getElementById(id).scrollIntoView();
+            
+          } catch (error) { // fallback for the ancients
+            window.location.hash = '#';
+            window.location.hash = '#' + id;
+          }
+        }
+      }
+    }
+  };
+  
+  // jumps to the clicked entry
+  document.addEventListener('click', function (e) {
+    if (e.target && e.target.href && /[A-Z]\d+|[A-Z]$/.test(e.target.href)) {
+      window.setTimeout(CKJDict.jump, 50); // slight delay before the hash is changed
+    }
+  });
+  
+  // auto jump to entry
+  window.setTimeout(CKJDict.jump, 50);
+  
 }(window, document));

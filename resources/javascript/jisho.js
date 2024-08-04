@@ -836,12 +836,17 @@ Genki.jisho = {
     { ja : "かなわない", en : "troubled; stuck; can't win; can't stand something", v : "A", l : "CKJ" },
     { ja : "かなわん", en : "troubled; stuck; can't win; can't stand something", v : "A", l : "CKJ" },
     { ja : "かなわん", en : "かなわない", v : "関西弁", l : "CKJ" },
+    { ja : "関空|かんくう", en : "Kansai International Airport [abbr.]", v : "N", l : "CKJ" },
+    { ja : "関西国際空港|かんさいこくさいくうこう", en : "Kansai International Airport", v : "N", l : "CKJ" },
+    { ja : "かしわ", en : "chicken meat", v : "N", l : "CKJ" },
+    { ja : "かしわ", en : "鶏肉", v : "関西弁", l : "CKJ" },
     { ja : "勘違い|かんちがい", en : "misunderstanding", v : "VN", l : "CKJ" },
     { ja : "関東煮|かんとうだき", en : "oden [Kansai-ben]", v : "N", l : "CKJ" },
     { ja : "関東煮|かんとうだき", en : "おでん", v : "関西弁", l : "CKJ" },
     { ja : "勘弁する|かんべんする", en : "excuse me; forgive me; have patience with me", v : "VN", l : "CKJ" },
     { ja : "堪忍する/かにする|かんにんする/かにする", en : "excuse me; forgive me; have patience with me", v : "VN", l : "CKJ" },
     { ja : "堪忍する/かにする|かんにんする/かにする", en : "勘弁する(かんべんする)", v : "関西弁", l : "CKJ" },
+    { ja : "河原町|かわらまち", en : "main shopping and entertainment district of central Kyoto", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "-家|-か", en : "specialist", v : "Suf", l : "L7読1" },
@@ -1516,7 +1521,9 @@ Genki.jisho = {
   "け" : [
     // CKJ
     { ja : "芸子|げいこ", en : "geisha/Kyoto geisha", v : "N", l : "CKJ" },
-    { ja : "京阪神|けいはんしん", en : "Kyoto-Osaka-Kobe", v : "N", l : "CKJ" },
+    { ja : "京阪神|けいはんしん", en : "tri-city region of Kyoto, Osaka, and Kobe", v : "N", l : "CKJ" },
+    { ja : "けえへん/きいへん/きいひん", en : "don't come", l : "CKJ" },
+    { ja : "けえへん/きいへん/きいひん", en : "来ない(こない)", v : "関西弁", l : "CKJ" },
     { ja : "けったい", en : "odd; strange; perverted", v : "A", l : "CKJ" },
     { ja : "芸人|げいにん", en : "entertainer; performer", v : "N", l : "CKJ" },
     { ja : "ゲラ", en : "A person who laughs hard", v : "N", l : "CKJ" },
