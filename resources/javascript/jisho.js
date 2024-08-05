@@ -1202,11 +1202,17 @@ Genki.jisho = {
   "き" : [
     // CKJ
     { ja : "祇園|ぎおん", en : "A traditional district near Kawaramachi in Kyoto famous for geiko.", v : "N", l : "CKJ" },
+    { ja : "キタ", en : "Osaka region around Umeda and Osaka Stations [Kansai-ben]", v : "N", l : "CKJ" },
+    { ja : "キタ", en : "梅田(うめだ)", v : "関西弁", l : "CKJ" },
     { ja : "きつい", en : "tough; severe; extreme", v : "A", l : "CKJ" },
+    { ja : "きつね", en : "kitsune udon [kansai-ben]", v : "N", l : "CKJ" },
+    { ja : "きつね", en : "きつねうどん", v : "関西弁", l : "CKJ" },
+    { ja : "きつねうどん", en : "udon with deep-fried tofu", v : "N", l : "CKJ" },
     { ja : "ぎりぎり", en : "barely surviving; barely in time", v : "Adv", l : "CKJ" },
     { ja : "京言葉|きょうことば", en : "Kyoto dialect", v : "N", l : "CKJ" },
     { ja : "仰山/ようけ/ようさん|ぎょうさん/ようけ/ようさん", en : "a lot; many", v : "Adv", l : "CKJ" },
     { ja : "仰山/ようけ/ようさん|ぎょうさん/ようけ/ようさん", en : "たくさん", v : "関西弁", l : "CKJ" },
+    { ja : "近畿(地方)|きんき(ちほう)", en : "Kinki (region around Osaka, Kyoto, Nara)", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "聞いたところによると|きいたところによると", en : "according to what I've heard", v : "Phr", l : "L10会1" },
@@ -1430,6 +1436,7 @@ Genki.jisho = {
     // CKJ
     { ja : "ぐちゃぐちゃ", en : "sloppy; messy", v : "ANa", l : "CKJ" },
     { ja : "愚図|ぐず", en : "dullard", v : "N", l : "CKJ" },
+    { ja : "くすぐったい", en : "ticklish", v : "A", l : "CKJ" },
     
     // Tobira
     { ja : "句|く", en : "haiku", v : "N", l : "L13読2" },
@@ -1525,6 +1532,7 @@ Genki.jisho = {
     { ja : "けえへん/きいへん/きいひん", en : "don't come", l : "CKJ" },
     { ja : "けえへん/きいへん/きいひん", en : "来ない(こない)", v : "関西弁", l : "CKJ" },
     { ja : "けったい", en : "odd; strange; perverted", v : "A", l : "CKJ" },
+    { ja : "けったい", en : "変(へん); 妙(みょう)", v : "関西弁", l : "CKJ" },
     { ja : "芸人|げいにん", en : "entertainer; performer", v : "N", l : "CKJ" },
     { ja : "ゲラ", en : "A person who laughs hard", v : "N", l : "CKJ" },
     { ja : "ゲラ", en : "笑い上戸(わらいじょうご)", v : "関西弁", l : "CKJ" },
@@ -1665,12 +1673,27 @@ Genki.jisho = {
 
   "こ" : [
     // CKJ
+    { ja : "神戸|こうべ", en : "Kobe (city)", v : "N", l : "CKJ" },
+    { ja : "神戸ビーフ|こうべビーフ", en : "Kobe beef", v : "N", l : "CKJ" },
+    { ja : "買うて|こうて", en : "買って(かって)", v : "関西弁", l : "CKJ" },
+    { ja : "買うた|こうた", en : "買った(かった)", v : "関西弁", l : "CKJ" },
+    { ja : "肥える|こえる", en : "to gain weight", v : "ru-Vi", l : "CKJ" },
+    { ja : "肥える|こえる", en : "太る(ふとる)", v : "関西弁", l : "CKJ" },
+    { ja : "肥えてる|こえてる", en : "fat; overweight", v : "ru-Vi", l : "CKJ" },
+    { ja : "肥えてる|こえてる", en : "太っている(ふとっている)", v : "関西弁", l : "CKJ" },
+    { ja : "こける", en : "to fall down; fall over; trip", v : "ru-Vi", l : "CKJ" },
+    { ja : "こける", en : "倒れる(たおれる); 転ぶ(ころぶ)", v : "関西弁", l : "CKJ" },
     { ja : "こっちゃ", en : "ことだ", v : "関西弁", l : "CKJ" },
     { ja : "ごねる", en : "to whine; complain", v : "ru-Vi", l : "CKJ" },
+    { ja : "こっちゃ", en : "ことだ", v : "関西弁", l : "CKJ" },
     { ja : "ごっつい", en : "very, big", v : "A", l : "CKJ" },
     { ja : "ごっつい", en : "とても; 大きい", v : "関西弁", l : "CKJ" },
     { ja : "ごっつおさん/ごっそさん/ごっさん", en : "thanks for the food", v : "Exp", l : "CKJ" },
     { ja : "ごっつおさん/ごっそさん/ごっさん", en : "ごちそうさまでした", v : "関西弁", l : "CKJ" },
+    { ja : "甲子園|こうしえん", en : "baseball stadium where the Hanshin Tigers play", v : "N", l : "CKJ" },
+    { ja : "こそばい", en : "ticklish", v : "A", l : "CKJ" },
+    { ja : "こそばい", en : "くすぐったい", v : "関西弁", l : "CKJ" },
+    { ja : "こら/こりゃ", en : "これは", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "-後|-ご", en : "(hours, days, years, etc.) later", v : "Suf", l : "L5読" },
@@ -2933,6 +2956,7 @@ Genki.jisho = {
 
   "た" : [
     // CKJ
+    { ja : "倒れる|たおれる", en : "to fall (over, down); collapse", v : "ru-Vi", l : "CKJ" },
     { ja : "ダボ", en : "asshole; dumbass; damn idiot", v : "N", l : "CKJ" },
     
     // Tobira
