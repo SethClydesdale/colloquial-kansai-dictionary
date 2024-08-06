@@ -4733,7 +4733,11 @@ Genki.jisho = {
 
   "ま" : [
     // CKJ
+    { ja : "舞子|まいこ", en : "a girl training to become a geiko", v : "N", l : "CKJ" },
     { ja : "待たす|またす", en : "to keep (a person) waiting", v : "u-Vt", l : "CKJ" },
+    { ja : "毎度|まいど", en : "hello; thank you", v : "Exp", l : "CKJ" },
+    { ja : "-まへん", en : "-ません", v : "関西弁", l : "CKJ" },
+    { ja : "-まひょう", en : "-ましょう", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "間|ま", en : "room", v : "N", l : "L1読" },
