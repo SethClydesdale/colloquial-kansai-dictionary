@@ -389,6 +389,9 @@ Genki.jisho = {
   ],
 
   "う" : [
+    // CKJ
+    { ja : "うなぎどん", en : "bowl of grilled eel over rice", v : "N", l : "CKJ" },
+    
     // Tobira
     { ja : "ウイルス", en : "virus", v : "N", l : "L8読" },
     { ja : "飢え|うえ", en : "hunger; starvation", v : "N", l : "L15読2" },
@@ -4734,10 +4737,21 @@ Genki.jisho = {
   "ま" : [
     // CKJ
     { ja : "舞子|まいこ", en : "a girl training to become a geiko", v : "N", l : "CKJ" },
-    { ja : "待たす|またす", en : "to keep (a person) waiting", v : "u-Vt", l : "CKJ" },
     { ja : "毎度|まいど", en : "hello; thank you", v : "Exp", l : "CKJ" },
+    { ja : "マクド", en : "マクドナルド", v : "関西弁", l : "CKJ" },
+    { ja : "負ける|まける", en : "to discount a price", v : "ru-Vi", l : "CKJ" },
+    { ja : "真っ新|まっさら", en : "brand-new", v : "ANa", l : "CKJ" },
+    { ja : "真っ新|まっさら", en : "全く新しい(まったくあたらしい)", v : "関西弁", l : "CKJ" },
+    { ja : "任し/任しとき|まかし/まかしとき", en : "leave it to him; I'll take care of it", l : "CKJ" },
+    { ja : "任し/任しとき|まかし/まかしとき", en : "任しとけ", v : "関西弁", l : "CKJ" },
+    { ja : "待たす|またす", en : "to keep (a person) waiting", v : "u-Vt", l : "CKJ" },
+    { ja : "-まっか", en : "-ますか", v : "関西弁", l : "CKJ" },
+    { ja : "まむし", en : "うなぎどん", v : "関西弁", l : "CKJ" },
+    { ja : "-まっせ", en : "-ますよ", v : "関西弁", l : "CKJ" },
     { ja : "-まへん", en : "-ません", v : "関西弁", l : "CKJ" },
     { ja : "-まひょう", en : "-ましょう", v : "関西弁", l : "CKJ" },
+    { ja : "漫才|まんざい", en : "stand-up comedy", v : "N", l : "CKJ" },
+    { ja : "漫才師|まんざいし", en : "stand-up comedian", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "間|ま", en : "room", v : "N", l : "L1読" },
@@ -4974,8 +4988,8 @@ Genki.jisho = {
 
   "め" : [
     // CKJ
-    { ja : "めっちゃ/むっちゃ", en : "very; extremely", v : "Adv", l : "CKJ" },
-    { ja : "めっちゃ/むっちゃ", en : "とても", v : "関西弁", l : "CKJ" },
+    { ja : "めっちゃ/めちゃ/むっちゃ", en : "very; extremely; reckless; disorganized", v : "Adv", l : "CKJ" },
+    { ja : "めっちゃ/めちゃ/むっちゃ", en : "とても; すごく; めちゃくちゃ", v : "関西弁", l : "CKJ" },
     { ja : "目に会う|めにあう", en : "to go through; experience; suffer", v : "Exp", l : "CKJ" },
     
     // Tobira
