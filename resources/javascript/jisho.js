@@ -4859,7 +4859,11 @@ Genki.jisho = {
 
   "み" : [
     // Tobira
-    { ja : "ミナミ", en : "Nanba (Southern Kansai)", v : "N", l : "CKJ" },
+    { ja : "-みい/-み", en : "-みて(try it; do it)", v : "関西弁", l : "CKJ" },
+    { ja : "ミーコー", en : "ミルクコーヒー", v : "関西弁", l : "CKJ" },
+    { ja : "ミルクコーヒー", en : "cafe au lait", v : "N", l : "CKJ" },
+    { ja : "ミナミ", en : "Namba (region of Osaka near Namba Station)", v : "N", l : "CKJ" },
+    { ja : "ミナミ", en : "難波(なんば)", v : "関西弁", l : "CKJ" },
     { ja : "妙|みょう", en : "strange; weird", v : "A", l : "CKJ" },
     
     // Tobira
@@ -4988,8 +4992,10 @@ Genki.jisho = {
 
   "め" : [
     // CKJ
-    { ja : "めっちゃ/めちゃ/むっちゃ", en : "very; extremely; reckless; disorganized", v : "Adv", l : "CKJ" },
-    { ja : "めっちゃ/めちゃ/むっちゃ", en : "とても; すごく; めちゃくちゃ", v : "関西弁", l : "CKJ" },
+    { ja : "めげる", en : "to break", v : "ru-Vi", l : "CKJ" },
+    { ja : "めげる", en : "壊れる(こわれる)", v : "関西弁", l : "CKJ" },
+    { ja : "めっちゃ/めちゃ/むっちゃ/むちゃ", en : "very; extremely; reckless; disorganized", v : "Adv", l : "CKJ" },
+    { ja : "めっちゃ/めちゃ/むっちゃ/むちゃ", en : "とても; すごく; めちゃくちゃ", v : "関西弁", l : "CKJ" },
     { ja : "目に会う|めにあう", en : "to go through; experience; suffer", v : "Exp", l : "CKJ" },
     
     // Tobira
@@ -5045,6 +5051,9 @@ Genki.jisho = {
 
   "も" : [
     // Tobira
+    { ja : "もう一回|もういっかい", en : "once more; again", v : "Exp", l : "CKJ" },
+    { ja : "もっかい", en : "once more; again", v : "Exp", l : "CKJ" },
+    { ja : "もっかい", en : "もう一回(もういっかい)", v : "関西弁", l : "CKJ" },
     { ja : "儲かりまっか|もうかりまっか", en : "Are you making money?; How's business? [Osaka-ben]", v : "Exp", l : "CKJ" },
     
     // Tobira
