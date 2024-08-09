@@ -3502,7 +3502,7 @@ Genki.jisho = {
     { ja : "どぎつい", en : "intense; extreme; gaudy", v : "A", l : "CKJ" },
     { ja : "とこ", en : "所(ところ)", v : "関西弁", l : "CKJ" },
     { ja : "どしたん", en : "どうした", v : "関西弁", l : "CKJ" },
-    { ja : "どす", en : "です", v : "京言葉", l : "CKJ" },
+    { ja : "どす", en : "です", v : "関西弁/京言葉", l : "CKJ" },
     { ja : "どつく", en : "to punch; to hit", v : "u-Vt", l : "CKJ" },
     { ja : "どつく", en : "殴る(なぐる)", v : "関西弁", l : "CKJ" },
     { ja : "どない", en : "how is it?", v : "Exp", l : "CKJ" },
@@ -3707,6 +3707,9 @@ Genki.jisho = {
 
   "な" : [
     // CKJ
+    { ja : "な/なあ", en : "ね", v : "関西弁", l : "CKJ" },
+    { ja : "-なはれ", en : "-なさい", v : "関西弁/京言葉", l : "CKJ" },
+    { ja : "なん", en : "	なの", v : "関西弁", l : "CKJ" },
     { ja : "難儀|なんぎ", en : "hardship; difficulty; suffering", v : "ANa", l : "CKJ" },
     { ja : "何ぼ|なんぼ", en : "how much", v : "Adv", l : "CKJ" },
     
@@ -5054,7 +5057,10 @@ Genki.jisho = {
     { ja : "もう一回|もういっかい", en : "once more; again", v : "Exp", l : "CKJ" },
     { ja : "もっかい", en : "once more; again", v : "Exp", l : "CKJ" },
     { ja : "もっかい", en : "もう一回(もういっかい)", v : "関西弁", l : "CKJ" },
-    { ja : "儲かりまっか|もうかりまっか", en : "Are you making money?; How's business? [Osaka-ben]", v : "Exp", l : "CKJ" },
+    { ja : "儲かりまっか|もうかりまっか", en : "How are you?; How's business? [Osaka-ben]", v : "Exp", l : "CKJ" },
+    { ja : "-もた", en : "しまった", v : "関西弁", l : "CKJ" },
+    { ja : "もろた/もうた", en : "もらった", v : "関西弁", l : "CKJ" },
+    { ja : "-もん", en : "もの", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "もうちょっと", en : "a bit more; a bit longer", v : "Phr", l : "Tobira: 漢字表" },
@@ -5539,6 +5545,12 @@ Genki.jisho = {
   "を" : [
     { ja : "～を機会に|～をきかいに", en : "taking this opportunity", v : "Phr", l : "L9読" },
     { ja : "～を通して|～をとおして", en : "through", v : "Phr", l : "L11読(L4読)" }
+  ],
+
+  "ん" : [
+    // CKJ
+    { ja : "-ん(Negative Verb Conjugation)", en : "-ない", v : "関西弁", l : "CKJ" },
+    { ja : "-ん (Interrogative Sentence Ending)", en : "-の", v : "関西弁", l : "CKJ" }
   ]
 
 };
