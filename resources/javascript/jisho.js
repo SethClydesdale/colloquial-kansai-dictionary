@@ -826,6 +826,7 @@ Genki.jisho = {
     { ja : "かっこ", en : "恰好(かっこう)", v : "関西弁", l : "CKJ" },
     { ja : "恰好|かっこう", en : "appearance; shape", v : "N", l : "CKJ" },
     { ja : "株|かぶ", en : "stock; share", v : "N", l : "CKJ" },
+    { ja : "かぼちゃ", en : "pumpkin", v : "N", l : "CKJ" },
     { ja : "かて", en : "even; even if; even though", v : "Prt", l : "CKJ" },
     { ja : "かて", en : "も、-ても、でも、でさえ", v : "関西弁", l : "CKJ" },
     { ja : "かつかつ", en : "barely surviving; barely in time", v : "Adv/ANa", l : "CKJ" },
@@ -3709,9 +3710,17 @@ Genki.jisho = {
     // CKJ
     { ja : "な/なあ", en : "ね", v : "関西弁", l : "CKJ" },
     { ja : "-なはれ", en : "-なさい", v : "関西弁/京言葉", l : "CKJ" },
+    { ja : "なにわ", en : "former name for Osaka", v : "N", l : "CKJ" },
     { ja : "なん", en : "	なの", v : "関西弁", l : "CKJ" },
-    { ja : "難儀|なんぎ", en : "hardship; difficulty; suffering", v : "ANa", l : "CKJ" },
+    { ja : "南京|なんきん", en : "pumpkin; squash", v : "N", l : "CKJ" },
+    { ja : "南京|なんきん", en : "かぼちゃ", v : "関西弁", l : "CKJ" },
+    { ja : "難儀|なんぎ", en : "difficult; no; annoying", v : "ANa", l : "CKJ" },
+    { ja : "難儀|なんぎ", en : "難しい(むずかしい); 面倒くさい(めんどうくさい)", v : "関西弁", l : "CKJ" },
+    { ja : "なんも", en : "nothing", v : "Exp", l : "CKJ" },
+    { ja : "なんも", en : "なにも", v : "関西弁", l : "CKJ" },
     { ja : "何ぼ|なんぼ", en : "how much", v : "Adv", l : "CKJ" },
+    { ja : "何や|なんや", en : "what; something; somehow", v : "Adv", l : "CKJ" },
+    { ja : "何や|なんや", en : "何か(なんか)", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "-内|-ない", en : "within", v : "Suf", l : "L14討" },
@@ -5000,6 +5009,7 @@ Genki.jisho = {
     { ja : "めっちゃ/めちゃ/むっちゃ/むちゃ", en : "very; extremely; reckless; disorganized", v : "Adv", l : "CKJ" },
     { ja : "めっちゃ/めちゃ/むっちゃ/むちゃ", en : "とても; すごく; めちゃくちゃ", v : "関西弁", l : "CKJ" },
     { ja : "目に会う|めにあう", en : "to go through; experience; suffer", v : "Exp", l : "CKJ" },
+    { ja : "面倒くさい|めんどうくさい", en : "annoying; bothersome", v : "A", l : "CKJ" },
     
     // Tobira
     { ja : "名医|めいい", en : "noted doctor; excellent physician", v : "N", l : "Tobira: 漢字表" },
