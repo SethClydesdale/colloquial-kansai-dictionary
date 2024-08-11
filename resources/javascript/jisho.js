@@ -3709,6 +3709,8 @@ Genki.jisho = {
   "な" : [
     // CKJ
     { ja : "な/なあ", en : "ね", v : "関西弁", l : "CKJ" },
+    { ja : "なおす", en : "clean up; put away", v : "u-Vt", l : "CKJ" },
+    { ja : "なおす", en : "片づける(かたづける)", v : "関西弁", l : "CKJ" },
     { ja : "-なはれ", en : "-なさい", v : "関西弁/京言葉", l : "CKJ" },
     { ja : "なにわ", en : "former name for Osaka", v : "N", l : "CKJ" },
     { ja : "なん", en : "	なの", v : "関西弁", l : "CKJ" },
@@ -3913,6 +3915,9 @@ Genki.jisho = {
   ],
 
   "ぬ" : [
+    // CKJ
+    { ja : "ぬかす", en : "言う(いう) [vulgar form]", v : "u-Vt", l : "CKJ" },
+    
     // Tobira
     { ja : "抜く|ぬく", en : "to pull out", v : "u-Vt", l : "L8ス" },
     { ja : "抜ける|ぬける", en : "to come out", v : "ru-Vi", l : "Tobira: 漢字表" },
@@ -3929,6 +3934,7 @@ Genki.jisho = {
   "ね" : [
     // Tobira
     { ja : "ねん", en : "だよ", v : "関西弁", l : "CKJ" },
+    { ja : "ねや", en : "のだ; の", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "ネイルアート", en : "(finger) nail art", v : "N", l : "L10読" },
@@ -3976,6 +3982,7 @@ Genki.jisho = {
   "の" : [
     // CKJ
     { ja : "鈍間|のろま", en : "blockhead; dunce; dimwit", v : "N", l : "CKJ" },
+    { ja : "のん", en : "のもの、の; もの、こと; の？", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "能|のう", en : "Japanese lyrical Noh drama", v : "N", l : "L11会" },
