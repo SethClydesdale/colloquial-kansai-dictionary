@@ -579,9 +579,15 @@ Genki.jisho = {
 
   "お" : [
     // CKJ
+    { ja : "大きに|おおきに", en : "thank you", v : "Int", l : "CKJ" },
+    { ja : "大きに|おおきに", en : "ありがとう", v : "関西弁", l : "CKJ" },
     { ja : "押し付ける|おしつける", en : "to push on/against", v : "ru-Vt", l : "CKJ" },
+    { ja : "おちょくる", en : "to tease; make fun of", v : "u-Vt", l : "CKJ" },
+    { ja : "おちょくる", en : "からかう", v : "関西弁", l : "CKJ" },
     { ja : "お調子者|おちょうしもの", en : "person who gets easily elated (when praised, etc.)", v : "N", l : "CKJ" },
+    { ja : "おばはん", en : "おばさん", v : "関西弁", l : "CKJ" },
     { ja : "お前|おまえ", en : "you", v : "N", l : "CKJ" },
+    { ja : "おもろい", en : "interesting", v : "A", l : "CKJ" },
     { ja : "おもろい", en : "面白い(おもしろい)", v : "関西弁", l : "CKJ" },
     
     // Tobira
