@@ -904,7 +904,7 @@ ruby rt {
   padding:0 2px;
 }
 
-.workbook-title ruby rt, #index-list li a ruby rt, .main-color ruby rt, #quick-search-results ruby rt, a ruby rt {
+.workbook-title ruby rt, #index-list li a ruby rt, .main-color ruby rt, #quick-search-results ruby rt, a ruby rt, .section-title ruby rt {
   color:#933;
 }
 

@@ -21,6 +21,7 @@ Genki.jisho = {
 
   "あ" : [
     // CKJ
+    { ja : "アイスコーヒー", en : "iced coffee", v : "N", l : "CKJ" },
     { ja : "あかん", en : "no; no good; bad; useless; impossible; expletive", v : "Exp", l : "CKJ" },
     { ja : "あっこ", en : "over there", v : "N", l : "CKJ" },
     { ja : "憧れる|あこがれる", en : "to long for; admire", v : "ru-Vi", l : "CKJ" },
@@ -579,9 +580,14 @@ Genki.jisho = {
 
   "お" : [
     // CKJ
+    { ja : "おうた", en : "会った/合った(あった)", v : "関西弁", l : "CKJ" },
     { ja : "大きに|おおきに", en : "thank you", v : "Int", l : "CKJ" },
     { ja : "大きに|おおきに", en : "ありがとう", v : "関西弁", l : "CKJ" },
+    { ja : "おっさん", en : "middle-aged man [rude]", v : "N", l : "CKJ" },
+    { ja : "おっさん", en : "おじさん [rude]", v : "関西弁", l : "CKJ" },
     { ja : "押し付ける|おしつける", en : "to push on/against", v : "ru-Vt", l : "CKJ" },
+    { ja : "おっちゃん", en : "middle-aged man", v : "N", l : "CKJ" },
+    { ja : "おっちゃん", en : "おじさん", v : "関西弁", l : "CKJ" },
     { ja : "おちょくる", en : "to tease; make fun of", v : "u-Vt", l : "CKJ" },
     { ja : "おちょくる", en : "からかう", v : "関西弁", l : "CKJ" },
     { ja : "お調子者|おちょうしもの", en : "person who gets easily elated (when praised, etc.)", v : "N", l : "CKJ" },
@@ -589,6 +595,8 @@ Genki.jisho = {
     { ja : "お前|おまえ", en : "you", v : "N", l : "CKJ" },
     { ja : "おもろい", en : "interesting", v : "A", l : "CKJ" },
     { ja : "おもろい", en : "面白い(おもしろい)", v : "関西弁", l : "CKJ" },
+    { ja : "おる", en : "is; exists", v : "u-Vt", l : "CKJ" },
+    { ja : "おる", en : "	いる", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "追いかける|おいかける", en : "to run after; chase", v : "ru-Vt", l : "L8会" },
@@ -4048,6 +4056,8 @@ Genki.jisho = {
     // CKJ
     { ja : "はがいい", en : "frustrating", v : "A", l : "CKJ" },
     { ja : "はがいい", en : "歯がゆい", v : "関西弁", l : "CKJ" },
+    { ja : "ぱちる/ぱくる", en : "to steal", v : "u-V", l : "CKJ" },
+    { ja : "ぱちる/ぱくる", en : "盗む(ぬすむ)", v : "関西弁", l : "CKJ" },
     { ja : "歯がゆい|はがゆい", en : "frustrating; impatient", v : "A", l : "CKJ" },
     { ja : "腹立つ|はらだつ", en : "to get angry", v : "u-V", l : "CKJ" },
     { ja : "-はる", en : "なさる", v : "関西弁", l : "CKJ" },
@@ -5352,6 +5362,10 @@ Genki.jisho = {
   ],
 
   "ら" : [
+    // CKJ
+    { ja : "-等|-ら", en : "-達(-たち)", v : "関西弁", l : "CKJ" },
+    { ja : "ラッキー7", en : "Lucky 7; the seventh inning", v : "N", l : "CKJ" },
+    
     // Tobira
     { ja : "来日|らいにち", en : "visit to Japan; arrival in Japan", v : "VN", l : "L15読3" },
     { ja : "落選|らくせん", en : "failing to be elected", v : "VN", l : "L14読" },
@@ -5438,6 +5452,12 @@ Genki.jisho = {
   ],
 
   "れ" : [
+    // CKJ
+    { ja : "冷コー|れいコー", en : "iced coffee", v : "N", l : "CKJ" },
+    { ja : "冷コー|れいコー", en : "アイスコーヒー", v : "関西弁", l : "CKJ" },
+    { ja : "レティー", en : "lemon tea", v : "N", l : "CKJ" },
+    { ja : "レティー", en : "レモンティー", v : "関西弁", l : "CKJ" },
+    
     // Tobira
     { ja : "例|れい", en : "example", v : "N", l : "L2読" },
     { ja : "礼|れい", en : "bow; etiquette; thanks", v : "N", l : "L4読" },
