@@ -159,7 +159,7 @@
             }
             
             for (; i < QuickSearcher.exLen; i++) {
-              if (QuickSearcher.li[i].innerText.toLowerCase().indexOf(value.toLowerCase()) != -1 && QuickSearcher.li[i].getElementsByTagName('A')[0] && !/note/.test(QuickSearcher.li[i].id)) {
+              if (QuickSearcher.li[i].innerHTML.replace(/||<.*?>/g, '').toLowerCase().indexOf(value.toLowerCase()) != -1 && QuickSearcher.li[i].getElementsByTagName('A')[0] && !/note/.test(QuickSearcher.li[i].id)) {
                 // clone the link (if on homepage) or create a new link (if on the grammar index)
                 if (QuickSearcher.grammarIndex) {
                   clone = document.createElement('LI');
@@ -182,7 +182,7 @@
                 });
 
                 // add tooltip in case the text gets cut off
-                clone.title = clone.innerText;
+                clone.title = clone.innerHTML.replace(/<rt>(.*?)<\/rt>/, '($1)').replace(/||<.*?>/g, '');
 
                 // add the clone to the fragment if it's valid
                 if (!/^file|^http/.test(clone.dataset.lesson)) {

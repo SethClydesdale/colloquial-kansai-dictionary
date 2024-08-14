@@ -1957,8 +1957,19 @@ Genki.jisho = {
 
   "さ" : [
     // CKJ
+    { ja : "さいなら", en : "goodbye", v : "N", l : "CKJ" },
+    { ja : "さいなら", en : "さようなら", v : "関西弁", l : "CKJ" },
+    { ja : "さかいに", en : "because; for that reason", v : "N", l : "CKJ" },
+    { ja : "さかいに", en : "から; ので", v : "関西弁", l : "CKJ" },
     { ja : "雑用|ざつよう", en : "chores; odd jobs", v : "N", l : "CKJ" },
     { ja : "騒ぎ立てる|さわぎたてる", en : "to make a great fuss", v : "ru-Vi", l : "CKJ" },
+    { ja : "新|さら", en : "new", v : "N/Pref", l : "CKJ" },
+    { ja : "新|さら", en : "新しい(あたらしい)", v : "関西弁", l : "CKJ" },
+    { ja : "新品|さらっぴん/さらぴん", en : "new goods or product", v : "N/Pref", l : "CKJ" },
+    { ja : "新品|さらっぴん/さらぴん", en : "新品(しんぴん)", v : "関西弁", l : "CKJ" },
+    { ja : "-さん", en : "suffix used in greetings", v : "suf", l : "CKJ" },
+    { ja : "-さん", en : "-さま; ございます", v : "関西弁", l : "CKJ" },
+    { ja : "三宮|さんのみや", en : "refers to the downtown area of Kobe; main train station in Kobe", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "差|さ", en : "gap; difference", v : "N", l : "L1読" },
@@ -2719,6 +2730,12 @@ Genki.jisho = {
   ],
 
   "せ" : [
+    // CKJ
+    { ja : "せ", en : "that; like that", v : "N", l : "CKJ" },
+    { ja : "せ", en : "そう", v : "関西弁", l : "CKJ" },
+    { ja : "せえへん", en : "don't do", v : "Exp", l : "CKJ" },
+    { ja : "せえへん", en : "しない", v : "関西弁", l : "CKJ" },
+    
     // Tobira
     { ja : "-製|-せい", en : "-made; -make; made in...", v : "Suf", l : "L10読" },
     { ja : "清音|せいおん", en : "unvoiced sound", v : "N", l : "L7読2" },
@@ -5501,6 +5518,10 @@ Genki.jisho = {
   ],
 
   "ろ" : [
+    // CKJ
+    { ja : "六甲|ろっこう", en : "Mt. Rokko, one peak of the Rokko mountain rage, which rises up behind Koshien", v : "N", l : "CKJ" },
+    { ja : "六甲颪|ろっこうおろし", en : "The Hanshin Tigers team anthem, named after the first line of the song describing the wind blowing down Mt Rokko", v : "N", l : "CKJ" },
+    
     // Tobira
     { ja : "老後|ろうご", en : "post-retirement years", v : "N", l : "L15読2" },
     { ja : "老人|ろうじん", en : "old person; senior citizen", v : "N", l : "Tobira: 漢字表" },
