@@ -2733,8 +2733,15 @@ Genki.jisho = {
     // CKJ
     { ja : "せ", en : "that; like that", v : "N", l : "CKJ" },
     { ja : "せ", en : "そう", v : "関西弁", l : "CKJ" },
-    { ja : "せえへん", en : "don't do", v : "Exp", l : "CKJ" },
-    { ja : "せえへん", en : "しない", v : "関西弁", l : "CKJ" },
+    { ja : "殺生な|せっしょうな", en : "don't kill me; have mercy on me", v : "Exp", l : "CKJ" },
+    { ja : "せなあかん", en : "must do; have to do", v : "Exp", l : "CKJ" },
+    { ja : "せなあかん", en : "しなければならない", v : "関西弁", l : "CKJ" },
+    { ja : "せや", en : "that's right", v : "N", l : "CKJ" },
+    { ja : "せや", en : "そうだ", v : "関西弁", l : "CKJ" },
+    { ja : "せやな", en : "yeah; that's right", v : "Exp", l : "CKJ" },
+    { ja : "せやな", en : "そうだね", v : "関西弁", l : "CKJ" },
+    { ja : "せえへん/せん/しいひん", en : "don't do", v : "Exp", l : "CKJ" },
+    { ja : "せえへん/せん/しいひん", en : "しない", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "-製|-せい", en : "-made; -make; made in...", v : "Suf", l : "L10読" },
