@@ -2131,10 +2131,24 @@ Genki.jisho = {
 
   "し" : [
     // CKJ
+    { ja : "しい", en : "do it", l : "CKJ" },
+    { ja : "しい", en : "しなさい", v : "関西弁", l : "CKJ" },
+    { ja : "しばく", en : "to punch; to do", v : "u-Vt", l : "CKJ" },
+    { ja : "しばく", en : "殴る(なぐる); する", v : "関西弁", l : "CKJ" },
+    { ja : "しもた", en : "completely; expletive", v : "Int", l : "CKJ" },
+    { ja : "しもた", en : "しまった", v : "関西弁", l : "CKJ" },
+    { ja : "しゃあない", en : "it can't be helped; hopeless", v : "Exp", l : "CKJ" },
+    { ja : "しゃあない", en : "仕方がない(しかたがない)", v : "関西弁", l : "CKJ" },
     { ja : "自分|じぶん", en : "you [Kansai-ben]", v : "N", l : "CKJ" },
     { ja : "自分|じぶん", en : "あなた", v : "関西弁", l : "CKJ" },
     { ja : "自分自身|じぶんじしん", en : "oneself", v : "N", l : "CKJ" },
     { ja : "滋賀|じが", en : "Shiga (prefecture)", v : "N", l : "CKJ" },
+    { ja : "してんて/したんやて", en : "I heard...happened", l : "CKJ" },
+    { ja : "してんて/したんやて", en : "したんだって", v : "関西弁", l : "CKJ" },
+    { ja : "しらん", en : "I don't know", v : "Exp", l : "CKJ" },
+    { ja : "しらん", en : "知らない(しらない)", v : "関西弁", l : "CKJ" },
+    { ja : "しんどい", en : "tired; tiring; hard; difficult", v : "A", l : "CKJ" },
+    { ja : "しんどい", en : "疲れた(つかれた); つらい", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "-氏|-し", en : "Mr./Ms.", v : "Suf", l : "L10読" },
@@ -2733,11 +2747,18 @@ Genki.jisho = {
     // CKJ
     { ja : "せ", en : "that; like that", v : "N", l : "CKJ" },
     { ja : "せ", en : "そう", v : "関西弁", l : "CKJ" },
+    { ja : "仕方がない|しかたがない", en : "it can't be helped; hopeless", v : "Exp", l : "CKJ" },
     { ja : "殺生な|せっしょうな", en : "don't kill me; have mercy on me", v : "Exp", l : "CKJ" },
     { ja : "せなあかん", en : "must do; have to do", v : "Exp", l : "CKJ" },
     { ja : "せなあかん", en : "しなければならない", v : "関西弁", l : "CKJ" },
     { ja : "せや", en : "that's right", v : "N", l : "CKJ" },
     { ja : "せや", en : "そうだ", v : "関西弁", l : "CKJ" },
+    { ja : "せやから", en : "that's why", v : "Conj", l : "CKJ" },
+    { ja : "せやから", en : "そうだから", v : "関西弁", l : "CKJ" },
+    { ja : "せやけど", en : "but; yes, but...", v : "Conj", l : "CKJ" },
+    { ja : "せやけど", en : "そうだけど", v : "関西弁", l : "CKJ" },
+    { ja : "せやったら/そうやったら/そやったら", en : "in that case", v : "Conj", l : "CKJ" },
+    { ja : "せやったら/そうやったら/そやったら", en : "そうだったら/それだったら", v : "関西弁", l : "CKJ" },
     { ja : "せやな", en : "yeah; that's right", v : "Exp", l : "CKJ" },
     { ja : "せやな", en : "そうだね", v : "関西弁", l : "CKJ" },
     { ja : "せえへん/せん/しいひん", en : "don't do", v : "Exp", l : "CKJ" },
