@@ -1452,6 +1452,7 @@ Genki.jisho = {
 
   "く" : [
     // CKJ
+    { ja : "下らない|くだらない", en : "trivial; trifling", v : "A", l : "CKJ" },
     { ja : "ぐちゃぐちゃ", en : "sloppy; messy", v : "ANa", l : "CKJ" },
     { ja : "愚図|ぐず", en : "dullard", v : "N", l : "CKJ" },
     { ja : "くすぐったい", en : "ticklish", v : "A", l : "CKJ" },
@@ -2133,12 +2134,22 @@ Genki.jisho = {
     // CKJ
     { ja : "しい", en : "do it", l : "CKJ" },
     { ja : "しい", en : "しなさい", v : "関西弁", l : "CKJ" },
+    { ja : "したって", en : "please do it for him/her", l : "CKJ" },
+    { ja : "したって", en : "してあげて", v : "関西弁", l : "CKJ" },
+    { ja : "しとく", en : "to do something for someone (as a favor)", l : "CKJ" },
+    { ja : "しとく", en : "しておく", v : "関西弁", l : "CKJ" },
+    { ja : "しとってん", en : "was ...ing", l : "CKJ" },
+    { ja : "しとってん", en : "していた", v : "関西弁", l : "CKJ" },
     { ja : "しばく", en : "to punch; to do", v : "u-Vt", l : "CKJ" },
     { ja : "しばく", en : "殴る(なぐる); する", v : "関西弁", l : "CKJ" },
     { ja : "しもた", en : "completely; expletive", v : "Int", l : "CKJ" },
     { ja : "しもた", en : "しまった", v : "関西弁", l : "CKJ" },
     { ja : "しゃあない", en : "it can't be helped; hopeless", v : "Exp", l : "CKJ" },
     { ja : "しゃあない", en : "仕方がない(しかたがない)", v : "関西弁", l : "CKJ" },
+    { ja : "しょ/しよ", en : "let's do", l : "CKJ" },
+    { ja : "しょ/しよ", en : "しょう", v : "関西弁", l : "CKJ" },
+    { ja : "しょうもない/しょもない/しょもな/しょうむない", en : "uninteresting; boring; trifling", l : "CKJ" },
+    { ja : "しょうもない/しょもない/しょもな/しょうむない", en : "面白くない; つまらない; 下らない; 大した事ない", v : "関西弁", l : "CKJ" },
     { ja : "自分|じぶん", en : "you [Kansai-ben]", v : "N", l : "CKJ" },
     { ja : "自分|じぶん", en : "あなた", v : "関西弁", l : "CKJ" },
     { ja : "自分自身|じぶんじしん", en : "oneself", v : "N", l : "CKJ" },
@@ -2927,6 +2938,17 @@ Genki.jisho = {
   ],
 
   "そ" : [
+    // CKJ
+    { ja : "そうや/そや", en : "that is right", v : "Int", l : "CKJ" },
+    { ja : "そうや/そや", en : "そうだ", v : "関西弁", l : "CKJ" },
+    { ja : "好きやなあ/好っきゃなあ/好きやねん/好っきゃねん", en : "like", l : "CKJ" },
+    { ja : "好きやなあ/好っきゃなあ/好きやねん/好っきゃねん", en : "好きだなあ", v : "関西弁", l : "CKJ" },
+    { ja : "そない", en : "so much; too much; in that manner", v : "Adv", l : "CKJ" },
+    { ja : "そない", en : "そんなに; そのように", v : "関西弁", l : "CKJ" },
+    { ja : "そら/そりゃ", en : "それは", v : "関西弁", l : "CKJ" },
+    { ja : "そんなん", en : "that is", v : "N", l : "CKJ" },
+    { ja : "そんなん", en : "そんなの; そんな事", v : "関西弁", l : "CKJ" },
+    
     // Tobira
     { ja : "-ぞ", en : "express assertion (used mainly by men)", v : "Prt", l : "L8ス" },
     { ja : "僧|そう", en : "monk", v : "N", l : "L11読" },
@@ -3019,6 +3041,7 @@ Genki.jisho = {
 
   "た" : [
     // CKJ
+    { ja : "大した事ない|たいしたことない", en : "trivial; not amounting to much", v : "Exp", l : "CKJ" },
     { ja : "倒れる|たおれる", en : "to fall (over, down); collapse", v : "ru-Vi", l : "CKJ" },
     { ja : "ダボ", en : "asshole; dumbass; damn idiot", v : "N", l : "CKJ" },
     
@@ -3992,7 +4015,7 @@ Genki.jisho = {
 
   "ね" : [
     // Tobira
-    { ja : "ねん", en : "だよ", v : "関西弁", l : "CKJ" },
+    { ja : "ねん", en : "neutral sentence ending; よ", v : "関西弁", l : "CKJ" },
     { ja : "ねや", en : "のだ; の", v : "関西弁", l : "CKJ" },
     
     // Tobira
