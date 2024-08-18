@@ -2665,6 +2665,10 @@ Genki.jisho = {
   "す" : [
     // CKJ
     { ja : "すけべ", en : "perverted; lewd", v : "N", l : "CKJ" },
+    { ja : "すんまへん/すまへん/すんません/すいません/すまん", en : "excuse me; sorry", v : "Exp", l : "CKJ" },
+    { ja : "すんまへん/すまへん/すんません/すいません/すまん", en : "すみません", v : "関西弁", l : "CKJ" },
+    { ja : "すんな", en : "don't do", v : "Exp", l : "CKJ" },
+    { ja : "すんな", en : "するな", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "図|ず", en : "figure; chart; drawing", v : "N", l : "L6会3" },
@@ -3041,7 +3045,12 @@ Genki.jisho = {
 
   "た" : [
     // CKJ
+    { ja : "タイガース", en : "Hanshin Tigers", v : "N", l : "CKJ" },
+    { ja : "たこうて", en : "tall; high; expensive", l : "CKJ" },
+    { ja : "たこうて", en : "高くて(たかくて)", v : "関西弁", l : "CKJ" },
     { ja : "大した事ない|たいしたことない", en : "trivial; not amounting to much", v : "Exp", l : "CKJ" },
+    { ja : "たまらん", en : "can't stand/resist", v : "Exp", l : "CKJ" },
+    { ja : "たまらん", en : "たまらない", v : "関西弁", l : "CKJ" },
     { ja : "倒れる|たおれる", en : "to fall (over, down); collapse", v : "ru-Vi", l : "CKJ" },
     { ja : "ダボ", en : "asshole; dumbass; damn idiot", v : "N", l : "CKJ" },
     
