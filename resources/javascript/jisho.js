@@ -1226,6 +1226,7 @@ Genki.jisho = {
     { ja : "きつね", en : "kitsune udon [kansai-ben]", v : "N", l : "CKJ" },
     { ja : "きつね", en : "きつねうどん", v : "関西弁", l : "CKJ" },
     { ja : "きつねうどん", en : "udon with deep-fried tofu", v : "N", l : "CKJ" },
+    { ja : "キツネそば", en : "soba topped with fried tofu", v : "N", l : "CKJ" },
     { ja : "ぎりぎり", en : "barely surviving; barely in time", v : "Adv", l : "CKJ" },
     { ja : "京言葉|きょうことば", en : "Kyoto dialect", v : "N", l : "CKJ" },
     { ja : "仰山/ようけ/ようさん|ぎょうさん/ようけ/ようさん", en : "a lot; many", v : "Adv", l : "CKJ" },
@@ -3046,13 +3047,26 @@ Genki.jisho = {
   "た" : [
     // CKJ
     { ja : "タイガース", en : "Hanshin Tigers", v : "N", l : "CKJ" },
+    { ja : "互い違い|たがちがい", en : "mixed up; in the wrong order", v : "ANa", l : "CKJ" },
     { ja : "たこうて", en : "tall; high; expensive", l : "CKJ" },
     { ja : "たこうて", en : "高くて(たかくて)", v : "関西弁", l : "CKJ" },
     { ja : "大した事ない|たいしたことない", en : "trivial; not amounting to much", v : "Exp", l : "CKJ" },
+    { ja : "-たって", en : "please do it for him/her", l : "CKJ" },
+    { ja : "-たって", en : "-てあげて", v : "関西弁", l : "CKJ" },
     { ja : "たまらん", en : "can't stand/resist", v : "Exp", l : "CKJ" },
     { ja : "たまらん", en : "たまらない", v : "関西弁", l : "CKJ" },
+    { ja : "タヌキ", en : "kitsune soba", v : "N", l : "CKJ" },
+    { ja : "タヌキ", en : "キツネそば", v : "関西弁", l : "CKJ" },
+    { ja : "頼む|たのむ", en : "please; I'm counting on you", v : "Vt", l : "CKJ" },
+    { ja : "頼む|たのむ", en : "お願いします", v : "関西弁", l : "CKJ" },
     { ja : "倒れる|たおれる", en : "to fall (over, down); collapse", v : "ru-Vi", l : "CKJ" },
     { ja : "ダボ", en : "asshole; dumbass; damn idiot", v : "N", l : "CKJ" },
+    { ja : "-たる/-たろ/-たり/-たれ/-たげる", en : "I'll do it for him/her/you; please do this for him/her", l : "CKJ" },
+    { ja : "-たる/-たろ/-たり/-たれ/-たげる", en : "-してやる; -してやり; -してあげる", v : "関西弁", l : "CKJ" },
+    { ja : "たるい", en : "a pain in the neck; a hassle", v : "A", l : "CKJ" },
+    { ja : "たるい", en : "面倒くさい(めんどうくさい)", v : "関西弁", l : "CKJ" },
+    { ja : "-たん", en : "-ん added to standard -た form of past tense", l : "CKJ" },
+    { ja : "-たん", en : "たの", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "-体|-たい", en : "style (of language use)", v : "Suf", l : "L2読" },
@@ -3464,10 +3478,17 @@ Genki.jisho = {
 
   "て" : [
     // CKJ
+    { ja : "-てえな/-てえなあ/-てえや", en : "casual request; attached to -て form of a verb", l : "CKJ" },
+    { ja : "-てえな/-てえなあ/-てえや", en : "-て", v : "関西弁", l : "CKJ" },
     { ja : "で", en : "よ; ぞ", v : "関西弁", l : "CKJ" },
     { ja : "でっか", en : "ですか", v : "関西弁", l : "CKJ" },
+    { ja : "てれこ", en : "mixed up; in the wrong order", l : "CKJ" },
+    { ja : "てれこ", en : "互い違い(たがちがい)", v : "関西弁", l : "CKJ" },
+    { ja : "-てん", en : "past tense verb conjugation", l : "CKJ" },
+    { ja : "-てん", en : "-たんだ", v : "関西弁", l : "CKJ" },
     { ja : "でんな", en : "ですな; ですね", v : "関西弁", l : "CKJ" },
-    { ja : "～てんねん", en : "～ている", v : "関西弁", l : "CKJ" },
+    { ja : "-てんねん", en : "progressive (-ing) verb conjugation", l : "CKJ" },
+    { ja : "-てんねん", en : "-ている", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "定員|ていいん", en : "fixed number (of people)", v : "N", l : "Tobira: 漢字表" },
