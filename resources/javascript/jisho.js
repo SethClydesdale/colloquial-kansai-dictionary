@@ -3392,6 +3392,11 @@ Genki.jisho = {
   ],
 
   "つ" : [
+    // CKJ
+    { ja : "潰れる|つぶれる", en : "to break", v : "ru-Vi", l : "CKJ" },
+    { ja : "潰れる|つぶれる", en : "壊れる(こわれる)", v : "関西弁", l : "CKJ" },
+    { ja : "ツッコミ", en : "straight man in a comedy duo", v : "N", l : "CKJ" },
+    
     // Tobira
     { ja : "追加|ついか", en : "addition", v : "VN", l : "L13会" },
     { ja : "追及|ついきゅう", en : "investigation (e.g. into someone's guilt); questioning", v : "VN", l : "Tobira: 漢字表" },
@@ -3612,12 +3617,19 @@ Genki.jisho = {
     { ja : "ど～", en : "Prefix that intensifies nouns/adjectives", v : "Pre", l : "CKJ" },
     { ja : "どアホ", en : "total idiot", v : "N", l : "CKJ" },
     { ja : "どうしょうもない", en : "しょうがない", v : "関西弁", l : "CKJ" },
+    { ja : "-とき", en : "do it; contraction of -ておき", l : "CKJ" },
+    { ja : "-とき", en : "-なさい", v : "関西弁", l : "CKJ" },
     { ja : "どぎつい", en : "intense; extreme; gaudy", v : "A", l : "CKJ" },
+    { ja : "とこ", en : "place", v : "N", l : "CKJ" },
     { ja : "とこ", en : "所(ところ)", v : "関西弁", l : "CKJ" },
+    { ja : "-とこ", en : "contraction of -ておこう", l : "CKJ" },
+    { ja : "-とこ", en : "-ておく", v : "関西弁", l : "CKJ" },
     { ja : "どしたん", en : "どうした", v : "関西弁", l : "CKJ" },
     { ja : "どす", en : "です", v : "関西弁/京言葉", l : "CKJ" },
     { ja : "どつく", en : "to punch; to hit", v : "u-Vt", l : "CKJ" },
     { ja : "どつく", en : "殴る(なぐる)", v : "関西弁", l : "CKJ" },
+    { ja : "-とって", en : "please; do it", l : "CKJ" },
+    { ja : "-とって", en : "-ておいて", v : "関西弁", l : "CKJ" },
     { ja : "どない", en : "how is it?", v : "Exp", l : "CKJ" },
     { ja : "どない", en : "どう", v : "関西弁", l : "CKJ" },
     { ja : "どないしたん", en : "what's wrong?; what happened?", v : "Exp", l : "CKJ" },
@@ -3628,9 +3640,15 @@ Genki.jisho = {
     { ja : "どないする", en : "どうする", v : "関西弁", l : "CKJ" },
     { ja : "どないやった", en : "how was it?", v : "Exp", l : "CKJ" },
     { ja : "どないやった", en : "どうだった", v : "関西弁", l : "CKJ" },
+    { ja : "トラッキ", en : "To-Lucky, Hanshin Tiger's mascot", v : "N", l : "CKJ" },
+    { ja : "-とる", en : "progressive verb conjugation", l : "CKJ" },
+    { ja : "-とる", en : "-ている; -てる", v : "関西弁", l : "CKJ" },
     { ja : "とろい", en : "slow; dull; stupid", v : "A", l : "CKJ" },
     { ja : "どや/どうや", en : "どうだ", v : "関西弁", l : "CKJ" },
     { ja : "鈍臭い|どんくさい", en : "dim-witted; stupid", v : "A", l : "CKJ" },
+    { ja : "虎キチ|とらキチ", en : "devoted Hanshin Tigers fan", v : "N", l : "CKJ" },
+    { ja : "-とん/-とう", en : "progressive form of verb conjugated to -て form with -て changed to -とん", l : "CKJ" },
+    { ja : "-とん/-とう", en : "-ている", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "都／道／府／県|と／どう／ふ／けん", en : "prefecture [the largest administrative unit in Japan]", v : "N", l : "L1読" },
