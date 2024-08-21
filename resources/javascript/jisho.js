@@ -391,6 +391,12 @@ Genki.jisho = {
 
   "う" : [
     // CKJ
+    { ja : "うち", en : "I; me", v : "PN", l : "CKJ" },
+    { ja : "うち", en : "私(わたし)", v : "関西弁", l : "CKJ" },
+    { ja : "うちら", en : "we; our", v : "PN", l : "CKJ" },
+    { ja : "うちら", en : "私達(わたしたち)", v : "関西弁", l : "CKJ" },
+    { ja : "旨い|うまい", en : "delicious", v : "A", l : "CKJ" },
+    { ja : "旨い|うまい", en : "美味しい(おいしい)", v : "関西弁", l : "CKJ" },
     { ja : "うなぎどん", en : "bowl of grilled eel over rice", v : "N", l : "CKJ" },
     
     // Tobira
@@ -3393,6 +3399,9 @@ Genki.jisho = {
 
   "つ" : [
     // CKJ
+    { ja : "つこうて/つこて", en : "to use; -て form of 使う", l : "CKJ" },
+    { ja : "つこうて/つこて", en : "使って(つかって)", v : "関西弁", l : "CKJ" },
+    { ja : "鶴橋|つるはし", en : "Koreatown in Osaka", v : "N", l : "CKJ" },
     { ja : "潰れる|つぶれる", en : "to break", v : "ru-Vi", l : "CKJ" },
     { ja : "潰れる|つぶれる", en : "壊れる(こわれる)", v : "関西弁", l : "CKJ" },
     { ja : "ツッコミ", en : "straight man in a comedy duo", v : "N", l : "CKJ" },
