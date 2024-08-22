@@ -129,6 +129,11 @@
                 '<div><a id="link-settings" href="#genki-site-settings" onclick="GenkiSettings.manager(); return false;"><i class="fa">&#xf013;</i>Settings</a></div>'+
                 '<div>' + Genki.lang.toggle_furigana + '</div>'+
               '</div>'+
+              '<div id="related-projects" class="indent-block">'+
+                '<h3>Related Projects</h3>'+
+                '<a href="https://sethclydesdale.github.io/genki-study-resources/lessons-3rd/" title="Genki Study Resources"><img src="' + getPaths() + 'resources/images/genki-img.png" alt="Genki Study Resources"></a>'+
+                '<a href="https://sethclydesdale.github.io/tobira-study-resources/" title="Tobira Study Resources"><img src="' + getPaths() + 'resources/images/tobira-img.png" alt="Tobira Study Resources"></a>'+
+              '</div>'+
             '</nav>';
         
         // add the quick nav to the document

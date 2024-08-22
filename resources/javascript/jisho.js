@@ -395,6 +395,7 @@ Genki.jisho = {
     { ja : "うち", en : "私(わたし)", v : "関西弁", l : "CKJ" },
     { ja : "うちら", en : "we; our", v : "PN", l : "CKJ" },
     { ja : "うちら", en : "私達(わたしたち)", v : "関西弁", l : "CKJ" },
+    { ja : "鬱陶しい|うっとうしい", en : "gloomy; dreary (especially in reference to the weather)", v : "A", l : "CKJ" },
     { ja : "旨い|うまい", en : "delicious", v : "A", l : "CKJ" },
     { ja : "旨い|うまい", en : "美味しい(おいしい)", v : "関西弁", l : "CKJ" },
     { ja : "うなぎどん", en : "bowl of grilled eel over rice", v : "N", l : "CKJ" },
@@ -5663,6 +5664,11 @@ Genki.jisho = {
 
   "わ" : [
     // CKJ
+    { ja : "わ", en : "neutral sentence ending [Kansai-ben]", l : "CKJ" },
+    { ja : "わ", en : "よ", v : "関西弁", l : "CKJ" },
+    { ja : "わからん", en : "I don't know", v : "Exp", l : "CKJ" },
+    { ja : "わからん", en : "わからない", v : "関西弁", l : "CKJ" },
+    { ja : "若虎|わかとら", en : "A promising young Hanshin Tigers player", v : "N", l : "CKJ" },
     { ja : "笑い上戸|わらいじょうご", en : "one who laughs easily", v : "N", l : "CKJ" },
     
     // Tobira
