@@ -5290,11 +5290,23 @@ Genki.jisho = {
 
   "や" : [
     // CKJ
+    { ja : "や", en : "is", l : "CKJ" },
     { ja : "や", en : "だ", v : "関西弁", l : "CKJ" },
+    { ja : "やあ", en : "hello; wow", v : "Int", l : "CKJ" },
+    { ja : "やけど", en : "but; however", v : "Conj", l : "CKJ" },
     { ja : "やった", en : "だった", v : "関西弁", l : "CKJ" },
     { ja : "やな", en : "だね", v : "関西弁", l : "CKJ" },
+    { ja : "やない", en : "is not; isn't it?", l : "CKJ" },
+    { ja : "やない", en : "じゃない", v : "関西弁", l : "CKJ" },
     { ja : "やろ", en : "だろう", v : "関西弁", l : "CKJ" },
-    { ja : "～やん", en : "suffix for friends [Kansai-ben]", v : "Suf", l : "CKJ" },
+    { ja : "やん", en : "isn't it?; right?", l : "CKJ" },
+    { ja : "やん", en : "じゃん; じゃないの", v : "関西弁", l : "CKJ" },
+    { ja : "-やん", en : "suffix for friends [Kansai-ben]", v : "Suf", l : "CKJ" },
+    { ja : "-やん", en : "-君(-くん)", v : "関西弁", l : "CKJ" },
+    { ja : "やんか", en : "isn't it?", l : "CKJ" },
+    { ja : "やんか", en : "じゃないか", v : "関西弁", l : "CKJ" },
+    { ja : "やんけ", en : "isn't it? [masculine]", l : "CKJ" },
+    { ja : "やんけ", en : "じゃないか", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "約-|やく-", en : "about; approximately", v : "Pref", l : "L5読" },
@@ -5670,6 +5682,10 @@ Genki.jisho = {
     { ja : "わからん", en : "わからない", v : "関西弁", l : "CKJ" },
     { ja : "若虎|わかとら", en : "A promising young Hanshin Tigers player", v : "N", l : "CKJ" },
     { ja : "笑い上戸|わらいじょうご", en : "one who laughs easily", v : "N", l : "CKJ" },
+    { ja : "われ", en : "emphatic sentence ending native to Kawachi", l : "CKJ" },
+    { ja : "われ", en : "だね、君！[Kawachi-ben]", v : "関西弁", l : "CKJ" },
+    { ja : "わや", en : "screw-up; ruined", v : "ANa", l : "CKJ" },
+    { ja : "わや", en : "めちゃくちゃ", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "-羽|-わ", en : "counter for birds/rabbits", v : "Count", l : "L12会" },

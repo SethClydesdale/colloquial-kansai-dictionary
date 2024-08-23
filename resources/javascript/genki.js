@@ -120,19 +120,21 @@
             '<a href="#toggle-navigation" id="toggle-navigation" onclick="Genki.toggle.quickNav(this); return false;" title="Toggle quick navigation"></a>'+
             '<nav id="quick-nav">'+
               '<h3 class="main-title">Quick Navigation</h3>'+
-              '<div id="link-list" class="normal-block indent-block">'+
-                '<div><a id="link-home" href="' + (getPaths() == '' ? '#main-title' : getPaths()) + '"><i class="fa">' + (getPaths() == '' ? '&#xf062;' : '&#xf015;') + '</i>' + (getPaths() == '' ? 'Top' : 'Home') + '</a></div>'+
-                '<div><a id="link-report" href="' + getPaths() + 'report/"><i class="fa">&#xf188;</i>Reports &amp; Feedback</a></div>'+
-                '<div><a id="link-download" href="' + getPaths() + 'download/"><i class="fa">&#xf019;</i>Download</a></div>'+
-                '<div><a id="link-donate" href="' + getPaths() + 'donate/"><i class="fa">&#xf004;</i>Donate</a></div>'+
-                '<div><a id="link-github" href="https://github.com/SethClydesdale/colloquial-kansai-dictionary"><i class="fa">&#xf09b;</i>GitHub</a></div>'+
-                '<div><a id="link-settings" href="#genki-site-settings" onclick="GenkiSettings.manager(); return false;"><i class="fa">&#xf013;</i>Settings</a></div>'+
-                '<div>' + Genki.lang.toggle_furigana + '</div>'+
-              '</div>'+
-              '<div id="related-projects" class="indent-block">'+
-                '<h3>Related Projects</h3>'+
-                '<a href="https://sethclydesdale.github.io/genki-study-resources/lessons-3rd/" title="Genki Study Resources"><img src="' + getPaths() + 'resources/images/genki-img.png" alt="Genki Study Resources"></a>'+
-                '<a href="https://sethclydesdale.github.io/tobira-study-resources/" title="Tobira Study Resources"><img src="' + getPaths() + 'resources/images/tobira-img.png" alt="Tobira Study Resources"></a>'+
+              '<div id="lessons-list">'+
+                '<div id="link-list" class="normal-block indent-block">'+
+                  '<div><a id="link-home" href="' + (getPaths() == '' ? '#main-title' : getPaths()) + '"><i class="fa">' + (getPaths() == '' ? '&#xf062;' : '&#xf015;') + '</i>' + (getPaths() == '' ? 'Top' : 'Home') + '</a></div>'+
+                  '<div><a id="link-report" href="' + getPaths() + 'report/"><i class="fa">&#xf188;</i>Reports &amp; Feedback</a></div>'+
+                  '<div><a id="link-download" href="' + getPaths() + 'download/"><i class="fa">&#xf019;</i>Download</a></div>'+
+                  '<div><a id="link-donate" href="' + getPaths() + 'donate/"><i class="fa">&#xf004;</i>Donate</a></div>'+
+                  '<div><a id="link-github" href="https://github.com/SethClydesdale/colloquial-kansai-dictionary"><i class="fa">&#xf09b;</i>GitHub</a></div>'+
+                  '<div><a id="link-settings" href="#genki-site-settings" onclick="GenkiSettings.manager(); return false;"><i class="fa">&#xf013;</i>Settings</a></div>'+
+                  '<div>' + Genki.lang.toggle_furigana + '</div>'+
+                '</div>'+
+                '<div id="related-projects" class="indent-block">'+
+                  '<h3>Related Projects</h3>'+
+                  '<a href="https://sethclydesdale.github.io/genki-study-resources/lessons-3rd/" title="Genki Study Resources"><img src="' + getPaths() + 'resources/images/genki-img.png" alt="Genki Study Resources"></a>'+
+                  '<a href="https://sethclydesdale.github.io/tobira-study-resources/" title="Tobira Study Resources"><img src="' + getPaths() + 'resources/images/tobira-img.png" alt="Tobira Study Resources"></a>'+
+                '</div>'+
               '</div>'+
             '</nav>';
         
