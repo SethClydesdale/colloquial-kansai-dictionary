@@ -2673,6 +2673,9 @@ Genki.jisho = {
   "す" : [
     // CKJ
     { ja : "すけべ", en : "perverted; lewd", v : "N", l : "CKJ" },
+    { ja : "ずっこい", en : "cunning; sneaky", v : "A", l : "CKJ" },
+    { ja : "ずっこい", en : "ずるい; 悪賢い(わるがしこい)", v : "関西弁", l : "CKJ" },
+    { ja : "ずるい", en : "sly; cunning", v : "A", l : "CKJ" },
     { ja : "すんまへん/すまへん/すんません/すいません/すまん", en : "excuse me; sorry", v : "Exp", l : "CKJ" },
     { ja : "すんまへん/すまへん/すんません/すいません/すまん", en : "すみません", v : "関西弁", l : "CKJ" },
     { ja : "すんな", en : "don't do", v : "Exp", l : "CKJ" },
@@ -3856,6 +3859,7 @@ Genki.jisho = {
     { ja : "なん", en : "	なの", v : "関西弁", l : "CKJ" },
     { ja : "南京|なんきん", en : "pumpkin; squash", v : "N", l : "CKJ" },
     { ja : "南京|なんきん", en : "かぼちゃ", v : "関西弁", l : "CKJ" },
+    { ja : "南京町|なんきんまち", en : "Chinatown in Kobe located in the Motomachi district", v : "N", l : "CKJ" },
     { ja : "難儀|なんぎ", en : "difficult; no; annoying", v : "ANa", l : "CKJ" },
     { ja : "難儀|なんぎ", en : "難しい(むずかしい); 面倒くさい(めんどうくさい)", v : "関西弁", l : "CKJ" },
     { ja : "なんも", en : "nothing", v : "Exp", l : "CKJ" },
@@ -5294,6 +5298,10 @@ Genki.jisho = {
     { ja : "や", en : "だ", v : "関西弁", l : "CKJ" },
     { ja : "やあ", en : "hello; wow", v : "Int", l : "CKJ" },
     { ja : "やけど", en : "but; however", v : "Conj", l : "CKJ" },
+    { ja : "やった", en : "was", l : "CKJ" },
+    { ja : "やった", en : "だった", v : "関西弁", l : "CKJ" },
+    { ja : "やったら", en : "if that's the case", l : "CKJ" },
+    { ja : "やったら", en : "だったら", v : "関西弁", l : "CKJ" },
     { ja : "やっちゃ", en : "person; thing", v : "PN", l : "CKJ" },
     { ja : "やっちゃ", en : "奴だ(やつだ)", v : "関西弁", l : "CKJ" },
     { ja : "やった", en : "だった", v : "関西弁", l : "CKJ" },
@@ -5375,6 +5383,14 @@ Genki.jisho = {
   ],
 
   "ゆ" : [
+    // CKJ
+    { ja : "言う|ゆう", en : "to speak", v : "u-V", l : "CKJ" },
+    { ja : "言う|ゆう", en : "いう", v : "関西弁", l : "CKJ" },
+    { ja : "言うた|ゆうた", en : "said", l : "CKJ" },
+    { ja : "言うた|ゆうた", en : "いった", v : "関西弁", l : "CKJ" },
+    { ja : "言うて|ゆうて", en : "to say", l : "CKJ" },
+    { ja : "言うて|ゆうて", en : "いって", v : "関西弁", l : "CKJ" },
+    
     // Tobira
     { ja : "唯一（の）|ゆいいつ（の）", en : "only; sole", v : "ANo", l : "L13会" },
     { ja : "遊園地|ゆうえんち", en : "amusement park", v : "N", l : "Tobira: 漢字表" },
@@ -5424,7 +5440,10 @@ Genki.jisho = {
 
   "よ" : [
     // CKJ
-    { ja : "吉本|よしもと", en : "short for Yoshimoto Kogyo (Comedy entertainment agency based in Nanba)", v : "N", l : "CKJ" },
+    { ja : "よう", en : "very; much; often; well", v : "Adv", l : "CKJ" },
+    { ja : "よう", en : "よく", v : "関西弁", l : "CKJ" },
+    { ja : "よっしゃ", en : "yes; okay; great", v : "Exp", l : "CKJ" },
+    { ja : "吉本|よしもと", en : "short for Yoshimoto Kogyo (Comedy entertainment agency based in Namba)", v : "N", l : "CKJ" },
     { ja : "嫁|よめ", en : "wife", v : "N", l : "CKJ" },
     
     // Tobira
@@ -5691,6 +5710,7 @@ Genki.jisho = {
     { ja : "わからん", en : "わからない", v : "関西弁", l : "CKJ" },
     { ja : "若虎|わかとら", en : "A promising young Hanshin Tigers player", v : "N", l : "CKJ" },
     { ja : "笑い上戸|わらいじょうご", en : "one who laughs easily", v : "N", l : "CKJ" },
+    { ja : "悪賢い|わるがしこい", en : "cunning; crafty", v : "A", l : "CKJ" },
     { ja : "われ", en : "emphatic sentence ending native to Kawachi", l : "CKJ" },
     { ja : "われ", en : "だね、君！[Kawachi-ben]", v : "関西弁", l : "CKJ" },
     { ja : "わや", en : "screw-up; ruined", v : "ANa", l : "CKJ" },
