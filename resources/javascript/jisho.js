@@ -23,6 +23,7 @@ Genki.jisho = {
     // CKJ
     { ja : "アイスコーヒー", en : "iced coffee", v : "N", l : "CKJ" },
     { ja : "青海苔|あおのり", en : "green nori flakes", v : "N", l : "CKJ" },
+    { ja : "明石焼き|あかしやき", en : "round balls made from eggs, flour, etc., (local food of Akashi)", v : "N", l : "CKJ" },
     { ja : "あかん", en : "no; no good; bad; useless; impossible; expletive", v : "Exp", l : "CKJ" },
     { ja : "あっこ", en : "over there", v : "N", l : "CKJ" },
     { ja : "憧れる|あこがれる", en : "to long for; admire", v : "ru-Vi", l : "CKJ" },
@@ -194,6 +195,7 @@ Genki.jisho = {
   "い" : [
     // CKJ
     { ja : "イカ玉|いかたま", en : "squid okonomiyaki topping", v : "N", l : "CKJ" },
+    { ja : "イカナゴ", en : "small fish boiled hard in sugar and soy sauce", v : "N", l : "CKJ" },
     { ja : "いけず", en : "mean; nasty", v : "ANa", l : "CKJ" },
     { ja : "いけず", en : "意地悪(いじわる)", v : "関西弁", l : "CKJ" },
     { ja : "行こ|いこ", en : "let's go", v : "Exp", l : "CKJ" },
@@ -499,6 +501,7 @@ Genki.jisho = {
     { ja : "ええ", en : "いい", v : "京都弁", l : "CKJ" },
     { ja : "ええ恰好しい|ええかっこしい", en : "pretentious", v : "A", l : "CKJ" },
     { ja : "えぐい", en : "disgusting; nauseating", v : "A", l : "CKJ" },
+    { ja : "榎|えのき", en : "enoki mushrooms", v : "N", l : "CKJ" },
     { ja : "えらいこっちゃ", en : "horrible; that's too bad", v : "Exp", l : "CKJ" },
     { ja : "えらいこっちゃ", en : "大変だ", v : "関西弁", l : "CKJ" },
     { ja : "えらい目に会う|えらいめにあう", en : "to have a bad day/time", v : "Exp", l : "CKJ" },
@@ -2149,6 +2152,7 @@ Genki.jisho = {
     // CKJ
     { ja : "しい", en : "do it", l : "CKJ" },
     { ja : "しい", en : "しなさい", v : "関西弁", l : "CKJ" },
+    { ja : "シイタケ", en : "shiitake mushrooms", v : "N", l : "CKJ" },
     { ja : "したって", en : "please do it for him/her", l : "CKJ" },
     { ja : "したって", en : "してあげて", v : "関西弁", l : "CKJ" },
     { ja : "しとく", en : "to do something for someone (as a favor)", l : "CKJ" },
@@ -2173,6 +2177,7 @@ Genki.jisho = {
     { ja : "してんて/したんやて", en : "したんだって", v : "関西弁", l : "CKJ" },
     { ja : "しらん", en : "I don't know", v : "Exp", l : "CKJ" },
     { ja : "しらん", en : "知らない(しらない)", v : "関西弁", l : "CKJ" },
+    { ja : "しゃぶしゃぶ", en : "thinly sliced meat boiled quickly with vegetables, and dipped in sauce", v : "N", l : "CKJ" },
     { ja : "しんどい", en : "tired; tiring; hard; difficult", v : "A", l : "CKJ" },
     { ja : "しんどい", en : "疲れた(つかれた); つらい", v : "関西弁", l : "CKJ" },
     
@@ -3509,6 +3514,8 @@ Genki.jisho = {
     { ja : "-てえな/-てえなあ/-てえや", en : "-て", v : "関西弁", l : "CKJ" },
     { ja : "で", en : "よ; ぞ", v : "関西弁", l : "CKJ" },
     { ja : "でっか", en : "ですか", v : "関西弁", l : "CKJ" },
+    { ja : "たこ焼き|たこやき", en : "takoyaki; octopus dumplings", v : "N", l : "CKJ" },
+    { ja : "鉄ちり|てっちり", en : "boiled fugu dish (served with ponzu dipping sauce)", v : "N", l : "CKJ" },
     { ja : "てれこ", en : "mixed up; in the wrong order", l : "CKJ" },
     { ja : "てれこ", en : "互い違い(たがちがい)", v : "関西弁", l : "CKJ" },
     { ja : "-てん", en : "past tense verb conjugation", l : "CKJ" },
@@ -3673,6 +3680,7 @@ Genki.jisho = {
     { ja : "虎キチ|とらキチ", en : "devoted Hanshin Tigers fan", v : "N", l : "CKJ" },
     { ja : "-とん/-とう", en : "progressive form of verb conjugated to -て form with -て changed to -とん", l : "CKJ" },
     { ja : "-とん/-とう", en : "-ている", v : "関西弁", l : "CKJ" },
+    { ja : "豚カツ|とんカツ", en : "tonkatsu; breaded pork cutlet", v : "N", l : "CKJ" },
     
     // Tobira
     { ja : "都／道／府／県|と／どう／ふ／けん", en : "prefecture [the largest administrative unit in Japan]", v : "N", l : "L1読" },
@@ -4198,6 +4206,7 @@ Genki.jisho = {
     // CKJ
     { ja : "はがいい", en : "frustrating", v : "A", l : "CKJ" },
     { ja : "はがいい", en : "歯がゆい", v : "関西弁", l : "CKJ" },
+    { ja : "白菜|がくさい", en : "Chinese cabbage", v : "N", l : "CKJ" },
     { ja : "ぱちる/ぱくる", en : "to steal", v : "u-V", l : "CKJ" },
     { ja : "ぱちる/ぱくる", en : "盗む(ぬすむ)", v : "関西弁", l : "CKJ" },
     { ja : "歯がゆい|はがゆい", en : "frustrating; impatient", v : "A", l : "CKJ" },
@@ -4579,6 +4588,7 @@ Genki.jisho = {
   "ふ" : [
     // CKJ
     { ja : "ファミコン", en : "video games; family computer", v : "N", l : "CKJ" },
+    { ja : "河豚|ふく", en : "blow fish", v : "N", l : "CKJ" },
     { ja : "豚玉|ぶたたま", en : "pork okonomiyaki topping", v : "N", l : "CKJ" },
     { ja : "豚まん|ぶたまん", en : "pork roll", v : "N", l : "CKJ" },
     { ja : "豚まん|ぶたまん", en : "肉まん(にくまん)", v : "関西弁", l : "CKJ" },
@@ -4814,6 +4824,7 @@ Genki.jisho = {
     { ja : "ほんでも", en : "それでも", v : "関西弁", l : "CKJ" },
     { ja : "ほんじゃ", en : "see you later; goodbye; in that case", v : "Exp", l : "CKJ" },
     { ja : "ほんじゃ", en : "それじゃ", v : "関西弁", l : "CKJ" },
+    { ja : "ポン酢|ぽんず", en : "ponzu (Japanese sauce made primarily of soy sauce and citrus juice)", v : "N", l : "CKJ" },
     { ja : "ほんま(に)", en : "really", v : "N/Adv", l : "CKJ" },
     { ja : "ほんま(に)", en : "本当(ほんとう)", v : "関西弁", l : "CKJ" },
     
