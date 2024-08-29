@@ -609,8 +609,12 @@ Genki.jisho = {
     { ja : "おちょくる", en : "to tease; make fun of", v : "u-Vt", l : "CKJ" },
     { ja : "おちょくる", en : "からかう", v : "関西弁", l : "CKJ" },
     { ja : "お調子者|おちょうしもの", en : "person who gets easily elated (when praised, etc.)", v : "N", l : "CKJ" },
+    { ja : "おってや", en : "honorific for いる [Himeji-ben]", l : "CKJ" },
+    { ja : "おってや", en : "いらっしゃる", v : "関西弁", l : "CKJ" },
     { ja : "お造り|おつくり", en : "sashimi (raw sliced fish, shellfish or crustaceans)", v : "N", l : "CKJ" },
     { ja : "お造り|おつくり", en : "刺し身", v : "関西弁", l : "CKJ" },
+    { ja : "おとろしい", en : "pain in the neck [Nara-ben]", v : "A", l : "CKJ" },
+    { ja : "おとろしい", en : "面倒くさい(めんどうくさい)", v : "関西弁", l : "CKJ" },
     { ja : "おばはん", en : "おばさん", v : "関西弁", l : "CKJ" },
     { ja : "お前|おまえ", en : "you", v : "N", l : "CKJ" },
     { ja : "おもろい", en : "interesting", v : "A", l : "CKJ" },
@@ -1718,6 +1722,8 @@ Genki.jisho = {
     // CKJ
     { ja : "神戸|こうべ", en : "Kobe (city)", v : "N", l : "CKJ" },
     { ja : "神戸ビーフ|こうべビーフ", en : "Kobe beef", v : "N", l : "CKJ" },
+    { ja : "業が沸く|ごうがわく", en : "to get angry; lose one's temper", v : "Exp", l : "CKJ" },
+    { ja : "業が沸く|ごうがわく", en : "腹が立つ(はらがたつ)", v : "関西弁", l : "CKJ" },
     { ja : "買うて|こうて", en : "買って(かって)", v : "関西弁", l : "CKJ" },
     { ja : "買うた|こうた", en : "買った(かった)", v : "関西弁", l : "CKJ" },
     { ja : "肥える|こえる", en : "to gain weight", v : "ru-Vi", l : "CKJ" },
@@ -3423,6 +3429,7 @@ Genki.jisho = {
 
   "つ" : [
     // CKJ
+    { ja : "突き当り|つきあたり", en : "end of street/corridor", v : "N", l : "CKJ" },
     { ja : "つこうて/つこて", en : "to use; -て form of 使う", l : "CKJ" },
     { ja : "つこうて/つこて", en : "使って(つかって)", v : "関西弁", l : "CKJ" },
     { ja : "鶴橋|つるはし", en : "Koreatown in Osaka", v : "N", l : "CKJ" },
@@ -3691,6 +3698,8 @@ Genki.jisho = {
     { ja : "-とん/-とう", en : "progressive form of verb conjugated to -て form with -て changed to -とん", l : "CKJ" },
     { ja : "-とん/-とう", en : "-ている", v : "関西弁", l : "CKJ" },
     { ja : "豚カツ|とんカツ", en : "tonkatsu; breaded pork cutlet", v : "N", l : "CKJ" },
+    { ja : "どんつき", en : "end of street/corridor [Nara-ben]", v : "N", l : "CKJ" },
+    { ja : "どんつき", en : "突き当り(つきあたり)", v : "関西弁", l : "CKJ" },
     
     // Tobira
     { ja : "都／道／府／県|と／どう／ふ／けん", en : "prefecture [the largest administrative unit in Japan]", v : "N", l : "L1読" },
@@ -5260,10 +5269,11 @@ Genki.jisho = {
     // Tobira
     { ja : "もう一回|もういっかい", en : "once more; again", v : "Exp", l : "CKJ" },
     { ja : "もっかい", en : "once more; again", v : "Exp", l : "CKJ" },
-    { ja : "もっかい", en : "もう一回(もういっかい)", v : "関西弁", l : "CKJ" },
     { ja : "儲かりまっか|もうかりまっか", en : "How are you?; How's business? [Osaka-ben]", v : "Exp", l : "CKJ" },
     { ja : "-もた", en : "しまった", v : "関西弁", l : "CKJ" },
     { ja : "モダン焼き|モダンやき", en : "modan'yaki (okonomiyaki topped with yaki-soba and fried together)", v : "N", l : "CKJ" },
+    { ja : "もみない", en : "bad; boring", v : "A", l : "CKJ" },
+    { ja : "もみない", en : "まずい; おいしくない", v : "関西弁", l : "CKJ" },
     { ja : "もろた/もうた", en : "もらった", v : "関西弁", l : "CKJ" },
     { ja : "-もん", en : "もの", v : "関西弁", l : "CKJ" },
     
