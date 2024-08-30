@@ -20,6 +20,8 @@
 }
 
 /* dictionary styles */
+#index-list li.intro { list-style-type:disc !important; }
+#index-list li.intro .sub-section-button { display:none !important; }
 .lesson-exercises { display:none; }
 .main-color { color:#C33; }
 .example {
