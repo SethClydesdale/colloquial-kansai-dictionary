@@ -2164,6 +2164,8 @@ Genki.jisho = {
     // CKJ
     { ja : "しい", en : "do it", l : "CKJ" },
     { ja : "しい", en : "しなさい", v : "関西弁", l : "CKJ" },
+    { ja : "ジェット風船|ジェットふうせん", en : "Jet Balloon", v : "N", l : "CKJ" },
+    { ja : "ロケット風船|ロケットふうせん", en : "Rocket Balloon", v : "N", l : "CKJ" },
     { ja : "シイタケ", en : "shiitake mushrooms", v : "N", l : "CKJ" },
     { ja : "したって", en : "please do it for him/her", l : "CKJ" },
     { ja : "したって", en : "してあげて", v : "関西弁", l : "CKJ" },
@@ -2175,6 +2177,7 @@ Genki.jisho = {
     { ja : "しばく", en : "殴る(なぐる); する", v : "関西弁", l : "CKJ" },
     { ja : "しもた", en : "completely; expletive", v : "Int", l : "CKJ" },
     { ja : "しもた", en : "しまった", v : "関西弁", l : "CKJ" },
+    { ja : "死のロード|しのロード", en : "Death Road (Hanshin)", v : "N", l : "CKJ" },
     { ja : "しゃあない", en : "it can't be helped; hopeless", v : "Exp", l : "CKJ" },
     { ja : "しゃあない", en : "仕方がない(しかたがない)", v : "関西弁", l : "CKJ" },
     { ja : "しょ/しよ", en : "let's do", l : "CKJ" },
@@ -3083,6 +3086,7 @@ Genki.jisho = {
   "た" : [
     // CKJ
     { ja : "タイガース", en : "Hanshin Tigers", v : "N", l : "CKJ" },
+    { ja : "タイガースファン", en : "Hanshin Tigers Fan", v : "N", l : "CKJ" },
     { ja : "互い違い|たがちがい", en : "mixed up; in the wrong order", v : "ANa", l : "CKJ" },
     { ja : "たこうて", en : "tall; high; expensive", l : "CKJ" },
     { ja : "たこうて", en : "高くて(たかくて)", v : "関西弁", l : "CKJ" },
@@ -3095,6 +3099,7 @@ Genki.jisho = {
     { ja : "タヌキ", en : "キツネそば", v : "関西弁", l : "CKJ" },
     { ja : "頼む|たのむ", en : "please; I'm counting on you", v : "Vt", l : "CKJ" },
     { ja : "頼む|たのむ", en : "お願いします", v : "関西弁", l : "CKJ" },
+    { ja : "駄目虎|だめとら", en : "Terrible Tigers", v : "N", l : "CKJ" },
     { ja : "倒れる|たおれる", en : "to fall (over, down); collapse", v : "ru-Vi", l : "CKJ" },
     { ja : "ダボ", en : "asshole; dumbass; damn idiot", v : "N", l : "CKJ" },
     { ja : "-たる/-たろ/-たり/-たれ/-たげる", en : "I'll do it for him/her/you; please do this for him/her", l : "CKJ" },
@@ -3541,6 +3546,7 @@ Genki.jisho = {
     { ja : "-てん", en : "-たんだ", v : "関西弁", l : "CKJ" },
     { ja : "でんでん", en : "not at all [Wakayama]", v : "Adv", l : "CKJ" },
     { ja : "でんでん", en : "全然(ぜんぜん)", v : "関西弁/和歌山", l : "CKJ" },
+    { ja : "伝統の一戦|でんとうのいっせん", en : "Legendary Game (Tigers vs Giants)", v : "N", l : "CKJ" },
     { ja : "天かす|たんかす", en : "fried dough", v : "N", l : "CKJ" },
     { ja : "でんな", en : "ですな; ですね", v : "関西弁", l : "CKJ" },
     { ja : "-てんねん", en : "progressive (-ing) verb conjugation", l : "CKJ" },
@@ -3692,6 +3698,7 @@ Genki.jisho = {
     { ja : "どないやった", en : "how was it?", v : "Exp", l : "CKJ" },
     { ja : "どないやった", en : "どうだった", v : "関西弁", l : "CKJ" },
     { ja : "トラッキ", en : "To-Lucky, Hanshin Tiger's mascot", v : "N", l : "CKJ" },
+    { ja : "虎|とら", en : "The Japanese word for tiger; The Hanshin Tigers", v : "N", l : "CKJ" },
     { ja : "-とる", en : "progressive verb conjugation", l : "CKJ" },
     { ja : "-とる", en : "-ている; -てる", v : "関西弁", l : "CKJ" },
     { ja : "とろい", en : "slow; dull; stupid", v : "A", l : "CKJ" },
@@ -3904,6 +3911,7 @@ Genki.jisho = {
     { ja : "南京町|なんきんまち", en : "Chinatown in Kobe located in the Motomachi district", v : "N", l : "CKJ" },
     { ja : "難儀|なんぎ", en : "difficult; no; annoying", v : "ANa", l : "CKJ" },
     { ja : "難儀|なんぎ", en : "難しい(むずかしい); 面倒くさい(めんどうくさい)", v : "関西弁", l : "CKJ" },
+    { ja : "何でやねん|なんでやねん", en : "Why?; Why the heck?; Gee, I wonder why?", v : "Exp", l : "CKJ" },
     { ja : "なんも", en : "nothing", v : "Exp", l : "CKJ" },
     { ja : "なんも", en : "なにも", v : "関西弁", l : "CKJ" },
     { ja : "何ぼ|なんぼ", en : "how much", v : "Adv", l : "CKJ" },
@@ -5272,6 +5280,7 @@ Genki.jisho = {
   "も" : [
     // Tobira
     { ja : "もう一回|もういっかい", en : "once more; again", v : "Exp", l : "CKJ" },
+    { ja : "猛虎|もうこ", en : "Fierce Tigers (Hanshin)", v : "N", l : "CKJ" },
     { ja : "もっかい", en : "once more; again", v : "Exp", l : "CKJ" },
     { ja : "儲かりまっか|もうかりまっか", en : "How are you?; How's business? [Osaka-ben]", v : "Exp", l : "CKJ" },
     { ja : "-もた", en : "しまった", v : "関西弁", l : "CKJ" },
