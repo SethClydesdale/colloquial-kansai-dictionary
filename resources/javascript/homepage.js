@@ -284,7 +284,7 @@
     // gets the sub-section title for the section
     if (!list.innerHTML) {
       // gets all sub section titles and parses them into a list
-      for (var sec = document.querySelectorAll('#section-' + section + ' h3'), i = 0, j = sec.length, str = ''; i < j; i++) {
+      for (var sec = document.querySelectorAll('#section-' + (section == 'Introduction' ? 'INTRO' : section) + ' h3'), i = 0, j = sec.length, str = ''; i < j; i++) {
         str += '<li><a href="#' + sec[i].id + '">' + sec[i].innerHTML.replace(/\s\(.*\)$/, '').replace(/<a.*?>.*?<\/a>/g, '') + '</a></li>';
       }
       

@@ -37,13 +37,13 @@ a, code {
 /* 2. BACKGROUND COLORS */
 .kanji-canvas, .spoiler { background-color:#000; }
 
-body, #quick-jisho-window, .example { background-color:#161616; }
+body, #quick-jisho-window, .example, .dark-mode .table.alt-cell-color td { background-color:#161616; }
 
-code, input[type="text"], input[type="number"], textarea, select, .table td, .quiz-multi-answer, .text-block .sub-section, .show-bg .problem-answer, .show-bg .secondary-answer, input.writing-zone-input, .genki_pseudo_checkbox, .genki_pseudo_radio {
+code, input[type="text"], input[type="number"], textarea, select, .table td, .quiz-multi-answer, .text-block, .show-bg .problem-answer, .show-bg .secondary-answer, input.writing-zone-input, .genki_pseudo_checkbox, .genki_pseudo_radio {
   background-color:#1A1A1A;
 }
 
-.quiz-column-title, .verb-quiz .quiz-answer-zone:not(:empty), .quiz-item, #quick-nav, .text-block, #study-tool-ui .item-row.question-row, #result-list, #genki-modal-body, .question-block, .lesson-summary {
+.quiz-column-title, .verb-quiz .quiz-answer-zone:not(:empty), .quiz-item, #quick-nav, .text-block .sub-section, #study-tool-ui .item-row.question-row, #result-list, #genki-modal-body, .question-block, .lesson-summary {
   background-color:#222;
 }
 

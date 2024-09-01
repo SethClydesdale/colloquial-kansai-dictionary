@@ -20,8 +20,6 @@
 }
 
 /* dictionary styles */
-#index-list li.intro { list-style-type:disc !important; }
-#index-list li.intro .sub-section-button { display:none !important; }
 .lesson-exercises { display:none; }
 .main-color { color:#C33; }
 .example {
@@ -74,7 +72,7 @@
   text-align:center;
   background:#EEE;
 }
-.dark-mode .table.grammar-table > tbody > tr > td:first-child, .dark-mode .table .table-head td { background:#222; }
+.dark-mode .table.grammar-table > tbody > tr > td:first-child, .dark-mode .table .table-head td { background:#222 !important; }
 .dark-mode .table.grammar-table > tbody > tr > td:nth-child(2), .dark-mode .table td { background:#1A1A1A; }
 
 .table.grammar-table ul, .table.grammar-table ol, .table ul, .table ol {
@@ -108,7 +106,7 @@
 /* text blocks */
 .text-block {
   font-size:15px;
-  background:#EEE;
+  background:#F7F7F7;
   border:1px solid #CCC;
   margin:30px auto;
   padding:15px;
