@@ -50,6 +50,7 @@ If you have any suggestions, feedback, questions, or bugs to report, feel free t
 - [Useful Tools List](https://sethclydesdale.github.io/genki-study-resources/help/japanese-guide/#tools) (more in-depth list of tools for Japanese study)
 
 ##### Websites
+- [Kansai Dialect Self-study Site](https://www.kansaiben.com/) (lots of useful info and resources for Kansai-ben)
 - [京言葉](https://www.akenotsuki.com/kyookotoba/) (grammar and accent info for Kyoto-ben; Japanese only)
 - [Tobira Grammar Index](https://sethclydesdale.github.io/tobira-study-resources/lessons/appendix/grammar-index/) (for intermediate to advanced grammar explanations)
 - [Dictionary of Japanese Grammar](https://core6000.neocities.org/dojg/) (godsend for quickly looking up grammar points)
