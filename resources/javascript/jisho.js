@@ -5736,7 +5736,7 @@ Genki.jisho = {
 
   "ろ" : [
     // CKJ
-    { ja : "六甲|ろっこう", en : "Mt. Rokko, one peak of the Rokko mountain rage, which rises up behind Koshien", v : "N", l : "CKJ" },
+    { ja : "六甲|ろっこう", en : "Mt. Rokko, one peak of the Rokko mountain range, which rises up behind Koshien", v : "N", l : "CKJ" },
     { ja : "六甲颪|ろっこうおろし", en : "The Hanshin Tigers team anthem, named after the first line of the song describing the wind blowing down Mt Rokko", v : "N", l : "CKJ" },
     
     // Tobira
