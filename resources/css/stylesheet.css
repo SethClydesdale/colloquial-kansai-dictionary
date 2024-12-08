@@ -1335,10 +1335,10 @@ ruby rt {
   z-index:9999;
 }
 
-/* OS FIXES */
-.os-linux #quick-jisho-toggle {
+/* OS FIXES:DISABLED */
+/*.os-linux #quick-jisho-toggle {
   line-height:normal;
-}
+}*/
 
 
 /* RESPONSIVENESS */
