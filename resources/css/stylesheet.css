@@ -1335,10 +1335,43 @@ ruby rt {
   z-index:9999;
 }
 
+.info-box {
+  color:#333;
+  background:#EFF;
+  border:1px solid #17A;
+  position:relative;
+  padding:5px;
+  padding-left:35px;
+  margin:5px auto;
+  text-align:left;
+  width:80%;
+  max-width:600px;
+}
+.info-icon {
+  color:#EFF;
+  background:#17A;
+  font-size:20px;
+  width:30px;
+  text-align:center;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
 /* OS FIXES:DISABLED */
 /*.os-linux #quick-jisho-toggle {
   line-height:normal;
 }*/
+
+/* ADS */
+.ad-container {
+  text-align:center;
+  margin:20px 0;
+}
 
 
 /* RESPONSIVENESS */
