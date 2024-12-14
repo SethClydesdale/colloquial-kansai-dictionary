@@ -187,10 +187,10 @@
             '<button id="settings-dark-mode" class="button' + (darkMode == 'on' ? '' : ' opt-off') + '" onclick="GenkiSettings.updateDarkMode(this);">' + (darkMode == 'on' ? 'ON' : 'OFF') + '</button>'+
           '</li>'+
         
-          '<li>'+
+          (window.location.protocol == 'file:' ? '' : '<li>'+
             '<span class="label" title="Enable or disable Ads.\nAds help support the developer, but if they\'re annoying or distracting, you can turn them off with this option.">Ads:</span>'+
             '<button id="settings-dark-mode" class="button' + (adverts == 'on' ? '' : ' opt-off') + '" onclick="GenkiSettings.updateAdverts(this);">' + (adverts == 'on' ? 'ON' : 'OFF') + '</button>'+
-          '</li>'+
+          '</li>')+
         
           '<li>'+
             '<span class="label" title="Use your own CSS to customize the design of the site to your liking.">Custom CSS:<br><a href="https://www.w3schools.com/css/css_intro.asp" target="_blank" style="font-weight:normal;"><small>What is CSS?</small></a></span>'+
