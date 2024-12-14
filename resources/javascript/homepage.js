@@ -12,7 +12,7 @@
   // # ANNOUNCEMENTS #
   if (document.getElementById('announcement')) {
     window.GenkiAnn = {
-      rotation : true, // determines if the announcements rotate
+      rotation : false, // determines if the announcements rotate
       //edition : /lessons-3rd/.test(window.location.pathname) ? '3rd' : '2nd', // determines current edition
 
       // announcement messages
@@ -21,6 +21,11 @@
       // content: message body for the announcement; write your announcements here!
       // [NOT USED CURRENTLY; GSR remnant] edition: [OPTIONAL] restricts the announcement to a specific edition, possible values are: 3rd || 2nd, announcements are global by default
       msg : [
+        {
+          date : '12/14/24',
+          content : "I've been slowly rolling out ads on my website recently. They're optional for this project, however, so please <a href=\"https://ko-fi.com/post/Statement-Regarding-Ads-V7V717GGS6\" target=\"_blank\">click here</a> for more information about this update."
+        },
+        
         {
           content : 'As of September 10th, 2024, Colloquial Kansai Dictionary is now complete! If you have any suggestions or discover any issues, please feel free to let us know on <a href="https://github.com/SethClydesdale/colloquial-kansai-dictionary/issues">GitHub</a>. 関西弁の勉強、頑張んな！'
         },
