@@ -1049,6 +1049,14 @@ ruby rt {
   width:120px;
   max-width:100%;
 }
+
+.label[title]:after {
+  content:attr(title);
+  font-size:13px;
+  font-weight:normal;
+  display:block;
+}
+
 .sm-label { width:80px; }
 .med-label { width:200px; }
 .big-label { width:300px; }

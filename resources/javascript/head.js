@@ -156,6 +156,7 @@
       var fontSize = +localStorage.genkiFontSize || 100,
           pageWidth = +localStorage.genkiPageWidth || 100,
           darkMode = localStorage.darkMode || 'off',
+          adverts = localStorage.adverts || 'on',
           customCSS = localStorage.genkiCustomCSS || '',
           furigana = localStorage.furiganaVisible || 'true',
           jishoLookUp = localStorage.genkiJishoLookUp || 'true';
@@ -184,6 +185,11 @@
           '<li>'+
             '<span class="label" title="Enable or disable Dark Mode.">Dark Mode:</span>'+
             '<button id="settings-dark-mode" class="button' + (darkMode == 'on' ? '' : ' opt-off') + '" onclick="GenkiSettings.updateDarkMode(this);">' + (darkMode == 'on' ? 'ON' : 'OFF') + '</button>'+
+          '</li>'+
+        
+          '<li>'+
+            '<span class="label" title="Enable or disable Ads.\nAds help support the developer, but if they\'re annoying or distracting, you can turn them off with this option.">Ads:</span>'+
+            '<button id="settings-dark-mode" class="button' + (adverts == 'on' ? '' : ' opt-off') + '" onclick="GenkiSettings.updateAdverts(this);">' + (adverts == 'on' ? 'ON' : 'OFF') + '</button>'+
           '</li>'+
         
           '<li>'+
@@ -412,6 +418,29 @@
     updateDarkMode : function (caller) {
       document.getElementById('light-switch-checkbox').click();
       GenkiSettings.updateButton(caller);
+    },
+    
+    
+    // updates dark mode state
+    updateAdverts : function (caller) {
+      GenkiSettings.updateButton(caller, function (state) {
+        localStorage.adverts = state == 'ON' ? 'on' : 'off';
+        
+        GenkiModal.open({
+          title : 'Reload Required',
+          content : 'The page needs to be reloaded for this setting to take effect. Do you want to reload now?',
+          buttonText : 'Reload',
+          closeButtonText : 'Return to Settings',
+          
+          callback : function () {
+            window.location.reload();
+          },
+          
+          closeCallback : function () {
+            setTimeout(GenkiSettings.manager, 10);
+          }
+        });
+      });
     },
     
     

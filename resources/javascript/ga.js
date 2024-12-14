@@ -20,8 +20,8 @@ if (window.location.hostname == 'sethclydesdale.github.io') {
   
   // Adsense
   (function (window, document, id) {
-    // exclusions
-    if (/\/donate\/|\/download\//.test(window.location.pathname)) return false;
+    // exclusions and preferences
+    if (storageOK && localStorage.adverts == 'off' || /\/donate\/|\/download\//.test(window.location.pathname)) return false;
     
     var adsense = document.createElement('SCRIPT');
     adsense.async = true;
