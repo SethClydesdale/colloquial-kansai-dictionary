@@ -23,7 +23,7 @@
       msg : [
         {
           date : '12/14/24',
-          content : "I've been slowly rolling out ads on my website recently. They're optional for this project, however, so please <a href=\"https://ko-fi.com/post/Statement-Regarding-Ads-V7V717GGS6\" target=\"_blank\">click here</a> for more information about this update."
+          content : "I've been slowly rolling out ads on my website recently. They're optional for this project, however, so please <a href=\"https://ko-fi.com/post/Statement-Regarding-Ads-V7V717GGS6\" target=\"_blank\">click here</a> to learn more about this update."
         },
         
         {
