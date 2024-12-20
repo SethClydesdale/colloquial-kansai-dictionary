@@ -51,6 +51,7 @@ If you have any suggestions, feedback, questions, or bugs to report, feel free t
 
 ##### Websites
 - [Kansai Dialect Self-study Site](https://www.kansaiben.com/) (lots of useful info and resources for Kansai-ben)
+- [JLect - Kansai Dictionary](https://www.jlect.com/search.php?r=&h=&k=&l=kansai) (lists additional Kansai-ben words that might not be listed here)
 - [京言葉](https://www.akenotsuki.com/kyookotoba/) (grammar and accent info for Kyoto-ben; Japanese only)
 - [Tobira Grammar Index](https://sethclydesdale.github.io/tobira-study-resources/lessons/appendix/grammar-index/) (for intermediate to advanced grammar explanations)
 - [Dictionary of Japanese Grammar](https://core6000.neocities.org/dojg/) (godsend for quickly looking up grammar points)
