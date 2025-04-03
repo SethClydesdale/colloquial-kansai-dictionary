@@ -149,7 +149,7 @@ body {
   color:#333;
   background:#FFF;
   font-size:15px;
-  font-family:'メイリオ', 'Meiryo', 'Osaka', 'ＭＳ Ｐゴシック', 'MS PGothic', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-family:'メイリオ', 'Meiryo', 'Osaka', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
   padding:0;
   margin:0;
   display:flex;
@@ -194,7 +194,7 @@ code {
   color:#FFF;
   background:#C33;
   font-size:15px;
-  font-family:'メイリオ', 'Meiryo', 'Osaka', 'ＭＳ Ｐゴシック', 'MS PGothic', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-family:'メイリオ', 'Meiryo', 'Osaka', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
   text-decoration:none;
   border:none;
   font-weight:bold;
@@ -232,7 +232,7 @@ code {
 /* input fields */
 input[type="text"], input[type="number"], textarea, select {
   font-size:15px;
-  font-family:'メイリオ', 'Meiryo', 'Osaka', 'ＭＳ Ｐゴシック', 'MS PGothic', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
+  font-family:'メイリオ', 'Meiryo', 'Osaka', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Arial, sans-serif;
   background:#FFF;
   border:1px solid #CCC;
   padding:6px;
