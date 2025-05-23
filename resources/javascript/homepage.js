@@ -22,6 +22,11 @@
       // [NOT USED CURRENTLY; GSR remnant] edition: [OPTIONAL] restricts the announcement to a specific edition, possible values are: 3rd || 2nd, announcements are global by default
       msg : [
         {
+          date : '5/22/25',
+          content : "From today on, I will be streaming the development progress of Quartet Study Resources on Twitch each day to share the process of building these websites. <a href=\"https://ko-fi.com/post/About-Development-Streams-Z8Z61FDRV3\" target=\"_blank\">Click here</a> for more information, such as my schedule."
+        },
+        
+        {
           date : '1/15/25',
           content : "Happy New Year! With the new year, comes new projects! <a href=\"https://ko-fi.com/post/Plans-for-2025-C0C2192FBX\" target=\"_blank\">Click here</a> to learn about what I have planned for 2025."
         },
