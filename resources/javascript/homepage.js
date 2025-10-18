@@ -22,6 +22,11 @@
       // [NOT USED CURRENTLY; GSR remnant] edition: [OPTIONAL] restricts the announcement to a specific edition, possible values are: 3rd || 2nd, announcements are global by default
       msg : [
         {
+          date : '10/17/25',
+          content : "We'd like to hear from you! Please <a href=\"https://ko-fi.com/Post/New-Project-Survey-L3L51MZM9T\" target=\"_blank\">click here</a> to take the survey for our new project."
+        },
+        
+        {
           date : '9/11/25',
           content : "<strong style='color:orange'>IMPORTANT:</strong> All projects will be frozen until further notice. Please <a href=\"https://ko-fi.com/post/Important-Information-Regarding-Genki-and-Quartet-D1D21L4B1S\" target=\"_blank\">click here</a> for more details."
         },
